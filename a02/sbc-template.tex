@@ -4,6 +4,24 @@
 \usepackage{graphicx,url}
 \usepackage[utf8]{inputenc}
 \usepackage[brazil]{babel}
+\usepackage{listings}
+
+\lstset{
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberstyle=\tiny,
+	extendedchars=true,
+	breaklines=true,
+	frame=single,
+	showstringspaces=false,
+	xleftmargin=2.5em,
+	framexleftmargin=2em,
+	basicstyle=\small,
+}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
 
      
 \sloppy
@@ -29,21 +47,188 @@
 
 \section{Contexto}
 
+O objetivo deste Mapeamento Sistmático é avaliar um subconjunto inicial de artigos relevantes ao tópico de pesquisa utilizando uma metodologia confiável, rigorosa e auditável. Com este estudo, será possível obter uma melhor compreesão dos temas que envolvem o objeto de pesquisa e principalmente a exploração de trabalhos semelhantes, e a análise de seus resultados que devem embasar e direcionar o foco de estudos do trabalho de Doutorado.
+
+O tema da pesquisa está relacionado com a exploração de métodos, técnicas ou ferramentas de Engenharia de Software para o desenvolvimento de sistemas de monitoramento de plantações e de colaboração entre usuários no contexto da Agricultura 4.0.
+
+A Agricultura 4.0 explora a utilização das mais recentes tecnologias computacionais tais como: a automação, a robótica agrícola, \textit{big data}, a Internet das Coisas, entre outras. Com essa exploração, busca-se uma produção agrícola eficiente e sustentável, além de ferramentas que apoiem as tomadas de decisão por parte dos envolvidos em toda a cadeia agrícola.
+
+Entretanto, o acesso aos recursos necessários, como sensores, para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Adicionalmente, a resistência na adoção de novas tecnologias é um problema ainda em aberto.
+
+Por isso, a exploração de métodos, técnicas ou ferramentas para a elaboração de um sistema que possa aproximar os agricultores da tecnologia, bem como, mostrar os benefícios da tomada de decisão de forma colaborativa são temas a serem abordados pelo trabalho.
+
+Com este Mapeamento Sistemático busca-se analisar inicialmente, projetos que envolvam tecnologias da Agricultura 4.0 em trabalhos relacionados a interface, experiência dos usuários e colaboração entre usuários. Não serão considerados neste mapeamento o tema relacionado a monitoramento de plantações.
+
+A seguir, estão detalhados os passos e contextos a serem utilizados no Planejamento Sistemático.
+
 \section{Objetivo}
+
+Como objetivos principais deste planejamento pode-se destacar:
+
+\begin{itemize}
+	\item \textbf{Analisar:} publicações Científicas;
+	\item \textbf{Com o propósito de:} categorizar os trabalhos encontrados e Analisar seus conteúdos;
+	\item \textbf{Com relação a:} Agricultura 4.0, Indústria 4.0, usabilidade, experiência do usuário e colaboração entre Usuários;
+	\item \textbf{Do ponto de vista de:} pesquisadores da área de IHC e Engenharia de Software;
+	\item \textbf{No contexto de:} pesquisas primárias sobre IHC, Agricultura 4.0, Indústria 4.0, usabilidade, experiência do usuário e colaboração entre Usuários;
+\end{itemize}
 
 \section{Questões de Pesquisa}
 
+Nesta seção descreve-se quais são as questões utilizadas para o refinamento dos materiais encontrados. São elas:
+
+\begin{itemize}
+	\item Em qual contexto o experimento foi aplicado?
+	\item Quais técnicas de usabilidade foram aplicadas?
+	\item Quais técnicas de experiência do usuário foram aplicadas?
+	\item Quais técnicas sobre colaboração foram aplicadas?
+	\item Qual foi a metodologia utilizada para o desenvolvimento do projeto?
+	\item Quais foram os métodos utilizados para os testes no experimento?
+	\item Quais foram os resultados do projeto?
+\end{itemize}
+
 \section{Escopo}
 
-\section{Restrições}
+Como critério para a seleção das fontes de dados utilizou-se os repositórios com maior possibilidade para a obtenção de artigos relacionados ao tema de pesquisa e Engenharia de Software.
+
+Os repositórios explorados foram:
+
+\begin{itemize}
+	\item https://app.dimensions.ai/discover/publication
+	\item https://www.tandfonline.com
+	\item https://eric.ed.gov
+	\item https://ieeexplore.ieee.org/Xplore/home.jsp
+	\item https://dl.acm.org
+\end{itemize}
 
 \section{Idiomas}
 
+Para os artigos explorados, buscou-se no idioma Inglês, por ser o mais utilizados em artigos da área e utilizados pela maioria dos pesquisados.
+
 \section{Método de Busca das Publicações}
+
+Para a definição dos termos utilizados na \textit{string} de busca, utilizou a metodologia \textit{PICO}.
+
+\noindent\textbf{População:} agricultores de baixa renda; \\
+\textbf{Intervenção:} métodos, técnicas ou ferramentas para de colaboração entre usuários no contexto da Agricultura 4.0; \\
+\textbf{Comparação:} Não se aplica pois é um estudo exploratório; \\
+\textbf{Resultados:} \textit{Software} usável, acessível, inclusivo e de baixo custo.
+
+\noindent Após as definições do \textit{PICO} extraí-se as seguintes palavras-chave:
+
+\noindent\textbf{População:} farmers, farmer, low income, small farmers, agriculture 4, agriculture 4.0, digital agriculture, precision agriculture, industry 4, industry 4.0; \\
+\textbf{Intervenção:} software, method, toll, technique, framework, approach; \\
+\textbf{Resultados:} usability, accessibility, inclusive, user experience, user interface, experience, interface, ux, ui, ux/ui, mobile, app, web application;
+
+\noindent Com isso, gerou-se a string de busca detalhada no Código \ref{code:string_de_busca_gerada}.
+
+\begin{lstlisting}[caption={String de Busca Gerada},captionpos=b,frame=single,label={code:string_de_busca_gerada}]
+(
+  "farmers" OR 
+  "farmer" OR 
+  "low income" OR 
+  "small farmers" OR 
+  "agriculture 4" OR 
+  "agriculture 4.0" OR
+  "digital agriculture" OR 
+  "precision agriculture"
+)
+AND
+(
+  "software" OR
+  "method" OR
+  "toll" OR
+  "technique" OR
+  "framework" OR
+  "approach"
+)
+AND
+(
+  "usability" OR
+  "accessibility" OR
+  "inclusive" OR
+  "user experience" OR
+  "user interface" OR
+  "experience" OR
+  "interface" OR
+  "ux" OR
+  "ui" OR
+  "ux/ui" OR
+  "mobile"
+  "app" OR 
+  "web application"
+)
+\end{lstlisting}
 
 \section{Piloto}
 
-\bibliographystyle{sbc}
-\bibliography{sbc-template}
+Após a primeira busca, notou-se que os resultados gerados não foram satisfatórios.
+
+Os números obtidos estão dispostos na Tabela \ref{tab:resultados_primeira_busca}.
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Ferramenta de Busca} & \textbf{Resultados} \\ \hline
+		Dimensions                   & 1.808,178           \\ \hline
+		Taylor                       & 2.269               \\ \hline
+		Eric                         & 1.379               \\ \hline
+		IEEE Xplore                  & 206                 \\ \hline
+		ACM                          & 2.691               \\ \hline
+		\end{tabular}
+  \caption{Resultados da Primeira Busca}
+  \label{tab:resultados_primeira_busca}
+\end{table}
+
+Apesar de um volume considerável de trabalhos encontrados, vários destes trouxeram o foco em palavras-chave que não tinham relação com o tema a ser explorado.
+
+Por isso, um refinamento na busca foi aplicado, ficando com a string final demonstrada no Código \ref{code:string_de_busca_refinada}.
+
+
+\begin{lstlisting}[caption={String de Busca Gerada},captionpos=b,frame=single,label={code:string_de_busca_refinada}]
+(
+  "agriculture 4.0" OR
+  "digital agriculture" OR 
+  "precision agriculture"
+)
+AND
+(
+  "software" OR
+  "method" OR
+  "technique" OR
+  "framework" OR
+  "approach"
+)
+AND
+(
+  "usability" OR
+  "accessibility" OR
+  "user experience" OR
+  "user interface"
+)
+\end{lstlisting}
+
+Após os refinamentos, os resultados obtidos estão tabulados em \ref{tab:resultados_busca_refinada}
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Ferramenta de Busca} & \textbf{Resultados} \\ \hline
+		Dimensions                   & 9.578               \\ \hline
+		Taylor                       & 115                 \\ \hline
+		Eric                         & 1                   \\ \hline
+		IEEE Xplore                  & 10                  \\ \hline
+		ACM                          & 54                  \\ \hline
+		\end{tabular}
+  \caption{Resultados da Busca Refinada}
+  \label{tab:resultados_busca_refinada}
+\end{table}
+
+Após o refinamento da \textit{string} de busca, notou-se que apesar da diminuição no número de trabalhos encontrados, em uma análise rápida feita apenas pelos títulos, os temos são mais pertinentes ao tema a ser explorado.
+
+% \bibliographystyle{sbc}
+% \bibliography{sbc-template}
 
 \end{document}
