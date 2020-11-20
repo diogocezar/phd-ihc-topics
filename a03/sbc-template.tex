@@ -1,0 +1,638 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+
+\lstset{
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberstyle=\tiny,
+	extendedchars=true,
+	breaklines=true,
+	frame=single,
+	showstringspaces=false,
+	xleftmargin=2.5em,
+	framexleftmargin=2em,
+	basicstyle=\small,
+}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+
+     
+\sloppy
+
+\title{Planejamento de um Mapeamento Sistemático da Literatura}
+
+\author{Diogo C. T. Batista\inst{1}}
+
+\address{Universidade Federal do Paraná (UFPR)\\
+	Curitiba -- Paraná -- Brasil
+	\email{diogocezar@ufpr.br}
+	}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+  Este artigo descreve a elaboração do planejamento de um mapeamento sistemático da literatura.
+\end{resumo}
+
+
+\section{Contexto}
+
+O objetivo deste Mapeamento Sistmático é avaliar um subconjunto inicial de artigos relevantes ao tópico de pesquisa utilizando uma metodologia confiável, rigorosa e auditável. Com este estudo, será possível obter uma melhor compreesão dos temas que envolvem o objeto de pesquisa e principalmente a exploração de trabalhos semelhantes, e a análise de seus resultados que devem embasar e direcionar o foco de estudos do trabalho de Doutorado.
+
+O tema da pesquisa está relacionado com a exploração de métodos, técnicas ou ferramentas de Engenharia de Software para o desenvolvimento de sistemas de monitoramento de plantações e de colaboração entre usuários no contexto da Agricultura 4.0.
+
+A Agricultura 4.0 explora a utilização das mais recentes tecnologias computacionais tais como: a automação, a robótica agrícola, \textit{big data}, a Internet das Coisas, entre outras. Com essa exploração, busca-se uma produção agrícola eficiente e sustentável, além de ferramentas que apoiem as tomadas de decisão por parte dos envolvidos em toda a cadeia agrícola.
+
+Entretanto, o acesso aos recursos necessários, como sensores, para a exploração dessas tecnologias não é a realidade de grande parte do setor agrícola. Adicionalmente, a resistência na adoção de novas tecnologias é um problema ainda em aberto.
+
+Por isso, a exploração de métodos, técnicas ou ferramentas para a elaboração de um sistema que possa aproximar os agricultores da tecnologia, bem como, mostrar os benefícios da tomada de decisão de forma colaborativa são temas a serem abordados pelo trabalho.
+
+Com este Mapeamento Sistemático busca-se analisar inicialmente, projetos que envolvam tecnologias da Agricultura 4.0 em trabalhos relacionados a interface, experiência dos usuários e colaboração entre usuários. Não serão considerados neste mapeamento o tema relacionado a monitoramento de plantações.
+
+A seguir, estão detalhados os passos e contextos a serem utilizados no Planejamento Sistemático.
+
+\section{Objetivo}
+
+Como objetivos principais deste planejamento pode-se destacar:
+
+\begin{itemize}
+	\item \textbf{Analisar:} publicações Científicas;
+	\item \textbf{Com o propósito de:} categorizar os trabalhos encontrados e Analisar seus conteúdos;
+	\item \textbf{Com relação a:} Agricultura 4.0, Indústria 4.0, usabilidade, experiência do usuário e colaboração entre Usuários;
+	\item \textbf{Do ponto de vista de:} pesquisadores da área de IHC e Engenharia de Software;
+	\item \textbf{No contexto de:} pesquisas primárias sobre IHC, Agricultura 4.0, Indústria 4.0, usabilidade, experiência do usuário e colaboração entre Usuários;
+\end{itemize}
+
+\section{Questões de Pesquisa}
+
+Nesta seção descreve-se quais são as questões utilizadas para o refinamento dos materiais encontrados. São elas:
+
+\begin{itemize}
+	\item Em qual contexto o experimento foi aplicado?
+	\item Quais técnicas de usabilidade foram aplicadas?
+	\item Quais técnicas de experiência do usuário foram aplicadas?
+	\item Quais técnicas sobre colaboração foram aplicadas?
+	\item Qual foi a metodologia utilizada para o desenvolvimento do projeto?
+	\item Quais foram os métodos utilizados para os testes no experimento?
+	\item Quais foram os resultados do projeto?
+\end{itemize}
+
+\section{Escopo}
+
+Como critério para a seleção das fontes de dados utilizou-se os repositórios com maior possibilidade para a obtenção de artigos relacionados ao tema de pesquisa e Engenharia de Software.
+
+Os repositórios explorados foram:
+
+\begin{itemize}
+	\item https://app.dimensions.ai/discover/publication
+	\item https://www.tandfonline.com
+	\item https://eric.ed.gov
+	\item https://ieeexplore.ieee.org/Xplore/home.jsp
+	\item https://dl.acm.org
+\end{itemize}
+
+\section{Idiomas}
+
+Para os artigos explorados, buscou-se no idioma Inglês, por ser o mais utilizados em artigos da área e utilizados pela maioria dos pesquisados.
+
+\section{Método de Busca das Publicações}
+
+Para a definição dos termos utilizados na \textit{string} de busca, utilizou a metodologia \textit{PICO}.
+
+\noindent\textbf{População:} agricultores de baixa renda; \\
+\textbf{Intervenção:} métodos, técnicas ou ferramentas para de colaboração entre usuários no contexto da Agricultura 4.0; \\
+\textbf{Comparação:} Não se aplica pois é um estudo exploratório; \\
+\textbf{Resultados:} \textit{Software} usável, acessível, inclusivo e de baixo custo.
+
+\noindent Após as definições do \textit{PICO} extraí-se as seguintes palavras-chave:
+
+\noindent\textbf{População:} farmers, farmer, low income, small farmers, agriculture 4, agriculture 4.0, digital agriculture, precision agriculture, industry 4, industry 4.0; \\
+\textbf{Intervenção:} software, method, toll, technique, framework, approach; \\
+\textbf{Resultados:} usability, accessibility, inclusive, user experience, user interface, experience, interface, ux, ui, ux/ui, mobile, app, web application;
+
+\noindent Com isso, gerou-se a string de busca detalhada no Código \ref{code:string_de_busca_gerada}.
+
+\begin{lstlisting}[caption={String de Busca Gerada},captionpos=b,frame=single,label={code:string_de_busca_gerada}]
+(
+  "farmers" OR 
+  "farmer" OR 
+  "low income" OR 
+  "small farmers" OR 
+  "agriculture 4" OR 
+  "agriculture 4.0" OR
+  "digital agriculture" OR 
+  "precision agriculture"
+)
+AND
+(
+  "software" OR
+  "method" OR
+  "toll" OR
+  "technique" OR
+  "framework" OR
+  "approach"
+)
+AND
+(
+  "usability" OR
+  "accessibility" OR
+  "inclusive" OR
+  "user experience" OR
+  "user interface" OR
+  "experience" OR
+  "interface" OR
+  "ux" OR
+  "ui" OR
+  "ux/ui" OR
+  "mobile"
+  "app" OR 
+  "web application"
+)
+\end{lstlisting}
+
+\section{Piloto}
+
+Após a primeira busca, notou-se que os resultados gerados não foram satisfatórios.
+
+Os números obtidos estão dispostos na Tabela \ref{tab:resultados_primeira_busca}.
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Ferramenta de Busca} & \textbf{Resultados} \\ \hline
+		Dimensions                   & 1.808,178           \\ \hline
+		Taylor                       & 2.269               \\ \hline
+		Eric                         & 1.379               \\ \hline
+		IEEE Xplore                  & 206                 \\ \hline
+		ACM                          & 2.691               \\ \hline
+		\end{tabular}
+  \caption{Resultados da Primeira Busca}
+  \label{tab:resultados_primeira_busca}
+\end{table}
+
+Apesar de um volume considerável de trabalhos encontrados, vários destes trouxeram o foco em palavras-chave que não tinham relação com o tema a ser explorado.
+
+Por isso, um refinamento na busca foi aplicado, ficando com a string final demonstrada no Código \ref{code:string_de_busca_refinada}.
+
+
+\begin{lstlisting}[caption={String de Busca Gerada},captionpos=b,frame=single,label={code:string_de_busca_refinada}]
+(
+  "agriculture 4.0" OR
+  "digital agriculture" OR 
+  "precision agriculture"
+)
+AND
+(
+  "software" OR
+  "method" OR
+  "technique" OR
+  "framework" OR
+  "approach"
+)
+AND
+(
+  "usability" OR
+  "accessibility" OR
+  "user experience" OR
+  "user interface"
+)
+\end{lstlisting}
+
+Após os refinamentos, os resultados obtidos estão tabulados em \ref{tab:resultados_busca_refinada}
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\textbf{Ferramenta de Busca} & \textbf{Resultados} \\ \hline
+		Dimensions                   & 9.578               \\ \hline
+		Taylor                       & 115                 \\ \hline
+		Eric                         & 1                   \\ \hline
+		IEEE Xplore                  & 10                  \\ \hline
+		ACM                          & 54                  \\ \hline
+		\end{tabular}
+  \caption{Resultados da Busca Refinada}
+  \label{tab:resultados_busca_refinada}
+\end{table}
+
+Após o refinamento da \textit{string} de busca, notou-se que apesar da diminuição no número de trabalhos encontrados, em uma análise rápida feita apenas pelos títulos, os temos são mais pertinentes ao tema a ser explorado.
+
+\section{Procedimentos de Seleção e Critérios}
+
+Para o escopo deste trabalho, apesar das strings testadas em diferentes fontes de publicações o foco será nos artigos encontrados na ACM.
+
+Após a busca de publicações realizada através da string refinada, os resultados precisam passar por um processo de seleção antes de serem incluídos no Mapeamento Sistemático da Literatura. Para isso, definiu-se os seguintes critérios de inclusão e exclusão.
+
+
+\subsection{Critérios de Inclusão}
+
+Para uma publicação ser adicionada ao Mapeamento, deve ser incluído em pelo menos um dos critérios:
+
+\begin{itemize}
+	\item[CI1] Publicações que apresentem métodos, técnicas ou ferramentas de engenharia de software;
+	\item[CI2] Publicações que apresentem temáticas relacionada à usabilidade, experiência do usuário ou sistemas colaborativos;
+	\item[CI3] Publicações que apresentem contextos inseridos no cenário da Agricultura 4.0.
+\end{itemize} 
+
+\subsection{Critérios de Exclusão}
+
+Para um artigo ser excluído do Mapeamento, deve ser incluído em pelo menos um dos critérios:
+
+\begin{itemize}
+	\item[CE1] Publicações que não contemplam nenhum dos critérios de inclusão;
+	\item[CE2] Publicações que cujo idioma não seja inglês ou português;
+	\item[CE3] Publicações que não exploram cenários de desenvolvimento de software;
+	\item[CE4] Publicações que não exploram cenários de usuabilidade;
+	\item[CE5] Publicações que não exploram cenários de experiência do usuário;
+	\item[CE6] Publicações que não exploram cenários de sistemas colaborativos;
+	\item[CE7] Publicações que não exploram temática relacionada com Agricultura 4.0.
+\end{itemize} 
+
+\subsection{Filtros para Seleção de Artigos}
+
+\noindent\textit{Filtro 1}: Deve-se aplicar uma seleção preliminar filtrando publicações através de leitura parcial (título de \textit{abstract}), com o objetivo de selecionar no mínimo 5 publicações para o próximo filtro;
+
+\noindent\textit{Filtro 2}: Selecionar publicações através da leitura completa, aceitando apenas aquelas com total relevância para o Mapeamento Sistemático. 
+
+\section{Procedimentos para Extração dos Dados}
+
+Para garantir que as questões de pesquisa sejam suficientemente atendidas pela análise das publicações foi definido o formulário para extração de dados demostrados na Tabela \ref{tab:extracao}.
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{Extração de Dados}
+  \label{tab:extracao}
+\end{table}
+
+\section{Listagem dos Artigos Encontrados}
+
+Apesar da análise das 50 primeiras publicações, indexou-se neste material as 30 publicações mais relevantes. A Tabela \ref{tab:30publicacoes} compila as informações coletadas.
+
+\begin{footnotesize}
+\begin{longtable}{|c|p{4cm}|c|p{4cm}|p{4cm}|}
+	\hline 
+	\multicolumn{1}{|c|}{\textbf{ID}} & 
+	\multicolumn{1}{c|}{\textbf{Título}} & 
+	\multicolumn{1}{c|}{\textbf{Ano}} &
+	\multicolumn{1}{c|}{\textbf{Autores}} &
+	\multicolumn{1}{c|}{\textbf{Publicação}} \\ \hline 
+	\endfirsthead
+	\endhead
+	\endfoot
+	\endlastfoot
+	1 &
+	An Agile Farm Management Information System Framework for Precision Agriculture &
+	2017 &
+	Pradeep Hewage, Mark Anderson, Hui Fang &
+	ICIME 2017: Proceedings of the 9th International Conference on Information Management and Engineering \\ \hline
+	2 &
+	Improving digital ecosystems for agriculture: users participation in the design of a mobile app for agrometeorological monitoring &
+	2015 &
+	Luciana A S Romani, Gabriel  Magalhaes, Martha D Bambini, Silvio R M Evangelista &
+	MEDES '15: Proceedings of the 7th International Conference on Management of computational and collective intElligence in Digital EcoSystems \\ \hline
+	3 &
+	Mires: a publish/subscribe middleware for sensor networks &
+	2005 &
+	Eduardo J Pereira Souto,  Germano F Guimarães,  Glauco Vasconcelos,  Mardoqueu Souza Vieira,  Nelson Souto Rosa,  Carlos André Guimarães Ferraz,  Judith Kelner &
+	Personal and Ubiquitous Computing \\ \hline
+	4 &
+	A Mixed Usability Evaluation on a Multi Criteria Group Decision Support System in Agriculture &
+	2018 &
+	Julián Grigera, Alejandra Garrido, Pascale Zaraté, Guy Camilleri, Alejandro Fernández &
+	Interacción 2018: Proceedings of the XIX International Conference on Human Computer Interaction \\ \hline
+	5 &
+	TERRA-REF Data Processing Infrastructure &
+	2018 &
+	Maxwell Burnette, Rob  Kooper, John D Maloney, Gareth S Rohde, Jeffrey A Terstriep, Craig  Willis, Noah  Fahlgren, Todd  Mockler, Maria  Newcomb &
+	PEARC '18: Proceedings of the Practice and Experience on Advanced Research Computing \\ \hline
+	6 &
+	A peer-to-peer environment for monitoring multiple wireless sensor networks &
+	2007 &
+	Athanasios Antoniou, Ioannis Chatzigiannakis, Athanasios Kinalis, Georgios Mylonas, Sotiris E Nikoletseas, Apostolos Papageorgiou &
+	PM2HW2N '07: Proceedings of the 2nd ACM workshop on Performance monitoring and measurement of heterogeneous wireless and wired networks \\ \hline
+	7 &
+	Software Radios for Unmanned Aerial Systems &
+	2020 &
+	Keith Powell, Aly Sabri Abdalla, Daniel Brennan, Vuk Marojevic, R Michael Barts, Ashwin Panicker, Ozgur Ozdemir, İsmail Güvenç &
+	OpenWireless'20: Proceedings of the 1st International Workshop on Open Software Defined Wireless Networks \\ \hline
+	8 &
+	Modeling and analyzing performance of software for wireless sensor networks &
+	2011 &
+	Luca Berardinelli, Vittorio Cortellessa, Stefano Pace &
+	SESENA '11: Proceedings of the 2nd Workshop on Software Engineering for Sensor Network ApplicationsMay 2011 \\ \hline
+	9 &
+	Context-aware agriculture organizer &
+	2012 &
+	Zafar Khaydarov, Teemu H Laine, Silvia Gaiani, Jinchul Choi, Chaewoo Lee &
+	ICUIMC '12: Proceedings of the 6th International Conference on Ubiquitous Information Management and Communication \\ \hline
+	10 &
+	IoT system to control greenhouse agriculture based on the needs of Palestinian farmers &
+	2018 &
+	Waleed Abdallah, Mohamad Khdair, Mos'ab Ayyash, Issa Asad &
+	ICFNDS '18: Proceedings of the 2nd International Conference on Future Networks and Distributed Systems \\ \hline
+	11 &
+	Spatial knowledge interchange environment: leveraging web 2.0 technologies to breach the knowledge divide in agricultural development &
+	2012 &
+	Tricia Melville, Orrette Baker, David Raveena Judie Dolly &
+	GEOCROWD '12: Proceedings of the 1st ACM SIGSPATIAL International Workshop on Crowdsourced and Volunteered Geographic Information \\ \hline
+	12 &
+	Understanding the user in self-managing systems &
+	2015 &
+	Markus Wallmyr, &
+	ECSAW '15: Proceedings of the 2015 European Conference on Software Architecture Workshops \\ \hline
+	13 &
+	Agriculture 4.0: Broadening Responsible Innovation in an Era of Smart Farming &
+	2018 &
+	David Christian Rose, Jason Chilvers &
+	Science, Society and Sustainability (3S) Research Group, School of Environmental Sciences, University of East Anglia, Norwich, United Kingdom \\ \hline
+	14 &
+	Data in the garden: a framework for exploring provocative prototypes as part of research in the wild &
+	2017 &
+	Geraint Rhys Sethu-Jones, Y. Rogers, Nicolai Marquardt &
+	OZCHI '17: Proceedings of the 29th Australian Conference on Computer-Human Interaction \\ \hline
+	15 &
+	LeafcheckIT: a banana leaf analyzer for identifying macronutrient deficiency &
+	2017 &
+	Jonilyn A. Tejada, Glenn Paul Gara &
+	ICCIP '17: Proceedings of the 3rd International Conference on Communication and Information Processing \\ \hline
+	16 &
+	Special issue on Agri-Food 4.0 and digitalization in agriculture supplychains - New directions, challenges and applications &
+	2020 &
+	Hervé Panetto, Mario Lezoche , Jorge E. Hernandez Hormazabal, Maria del Mar Eva Alemany Diaz , Janusz Kacprzyk &
+	Computers in IndustryVolume 116, April 2020, 103188 \\ \hline
+	17 &
+	Priorities for science to overcome hurdlesthwarting the full promise of the ‘digitalagriculture’ revolution &
+	2018 &
+	Mark Shepherd, James A Turner, Bruce Small, DavidWheeler &
+	Journal of the Science of Food and Agriculture published by John Wiley \& Sons Ltd on behalf of Society ofChemical Industry. \\ \hline
+	18 &
+	Embracing Opportunities of Livestock Big Data Integration with Privacy Constraints &
+	2019 &
+	Franz Papst, Olga Saukh, Kay Romer, Florian Grandl, Igor Jakovljevic, Franz Steininger, Martin Mayerhofer, Jurgen Duda, Christa Egger-Danner &
+	IoT 2019: Proceedings of the 9th International Conference on the Internet of Things \\ \hline
+	19 &
+	Seesaw: end-to-end dynamic sensing for IoT using machine learning &
+	2020 &
+	Vidushi Goyal, Valeria Bertacco, Reetuparna Das &
+	DAC '20: Proceedings of the 57th ACM/EDAC/IEEE Design Automation Conference \\ \hline
+	20 &
+	Fruit Are Heavy: A Prototype Public IoT System to Support Urban Foraging &
+	2017 &
+	Carl F DiSalvo, Tom Jenkins &
+	DIS '17: Proceedings of the 2017 Conference on Designing Interactive Systems \\ \hline
+	21 &
+	Mobile Pollution Data Sensing Using UAVs &
+	2015 &
+	Óscar Alvear, C. T. Calafate, Enrique Hernández, Juan Carlos Cano, Pietro Manzoni &
+	MoMM 2015: Proceedings of the 13th International Conference on Advances in Mobile Computing and Multimedia \\ \hline
+	22 &
+	Experiences Deploying an Always-on Farm Network &
+	2017 &
+	Zerina Kapetanovic, Deepak Vasisht, Jongho Won, Ranveer Chandra, Mark Kimball &
+	GetMobile: Mobile Computing and Communications \\ \hline
+	23 &
+	Wireless sensor networking for rain-fed farming decision support &
+	2008 &
+	Jacques Panchard, Seshagiri Rao, Madavalam S Sheshshayee, Panagiotis (Panos) Papadimitratos, Sumanth Kumar, Jean-Pierre Hubaux &
+	NSDR '08: Proceedings of the second ACM SIGCOMM workshop on Networked systems for developing regions \\ \hline
+	24 &
+	Fire Safety and Alert System Using Arduino Sensors with IoT Integration &
+	2018 &
+	Fernandino S. Perilla, George R Villanueva, Napoleon M Cacanindin, Thelma Domingo Palaoag &
+	ICSCA 2018: Proceedings of the 2018 7th International Conference on Software and Computer Applications \\ \hline
+	25 &
+	The land management tool: Developing a climate service in Southwest UK &
+	2018 &
+	Pete Falloon, Marta Bruno Soares, Rodrigo Manzanas, Daniel San-Martin, Felicity Liggins, Inika Taylor, Ron Kahana, John Wilding, Ceris Jones, Ruth Comer, Ernst de Vreede, Wim Som de Cerff, Carlo Buontempo, Anca Brookshaw, Simon Stanley, Ross Middleham, Daisy Pittams, Ellen Lawrence, Emily Bate, Hannah Peter, Katherine Uzell, Matt Richards &
+	Climate ServicesVolume 9, January 2018, Pages 86-100 \\ \hline
+	26 &
+	Agriculture Information Service Built on Geospatial Data Infrastructure and Crop Modeling &
+	2014 &
+	Kiyoshi Honda, Amor V M Ines, Akihiro Yui, Apichon Witayangkurn, Rassarin Chinnachodteeranun, Kumpee Teeravech &
+	IWWISS '14: Proceedings of the 2014 International Workshop on Web Intelligence and Smart Sensing \\ \hline
+	27 &
+	Designing Speculative Civics &
+	2016 &
+	Carl DiSalvo, Tom Jenkins, Thomas James Lodato &
+	CHI '16: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems \\ \hline
+	28 &
+	Citrus Greening Infection Detection (CiGID) by Computer Vision and Deep Learning &
+	2019 &
+	Charles T. Soini, Sofiane  Fellah, Muhammad Rizwan Abid &
+	ICISDM 2019: Proceedings of the 2019 3rd International Conference on Information System and Data Mining \\ \hline
+	29 &
+	Digital Platform for Data Driven Aquaculture Farm Management &
+	2015 &
+	Divya Piplani, Dineshkumar Singh, Karthik Srinivasan, N Ramesh, Anil Kumar, Viswa Kumar &
+	IndiaHCI'15: Proceedings of the 7th International Conference on HCI, IndiaHCI 2015 \\ \hline
+	30 &
+	AcuTe: acoustic thermometer empowered by a single smartphone &
+	2020 &
+	Chao Cai, Zhe Chen, Henglin Pu, Liyuan Ye, Menglan Hu, Jun Luo &
+	SenSys '20: Proceedings of the 18th Conference on Embedded Networked Sensor Systems \\ \hline
+		\caption{30 primeiras publicações registradas} \label{tab:30publicacoes} \\
+	\end{longtable}
+\end{footnotesize}
+
+\section{Realização do Primeiro Filtro}
+
+Os 30 artigos foram submetidos ao critérios de inclusão e exclusão previamente definidos, a análise foi feita através da leitura do título e resumo.
+
+\begin{footnotesize}
+	\begin{longtable}{|c|p{7cm}|p{2cm}|p{2cm}|p{1.6cm}|}
+		\hline 
+		\multicolumn{1}{|c|}{\textbf{ID}} & 
+		\multicolumn{1}{c|}{\textbf{Título}} & 
+		\multicolumn{1}{c|}{\textbf{Inclusão}} &
+		\multicolumn{1}{c|}{\textbf{Exclusão}} &
+		\multicolumn{1}{c|}{\textbf{Status}} \\ \hline 
+		\endfirsthead
+		\endhead
+		\endfoot
+		\endlastfoot
+		1 & An Agile Farm Management Information System Framework for Precision Agriculture & CI1, CI3 & CE4, CE5, CE6 & Excluído \\ \hline
+		2 & Improving digital ecosystems for agriculture: users participation in the design of a mobile app for agrometeorological monitoring & CI1, CI2, CI3 & CE6 & Selecionado \\ \hline
+		3 & Mires: a publish/subscribe middleware for sensor networks & CI3 & CE3, CE4, CE5, CE6 & Excluído \\ \hline
+		4 & A Mixed Usability Evaluation on a Multi Criteria Group Decision Support System in Agriculture & CI1, CI2, CI3 & CE4 & Selecionado \\ \hline
+		5 & TERRA-REF Data Processing Infrastructure & CI3 & CE4, CE5, CE6 & Excluído \\ \hline
+		6 & A peer-to-peer environment for monitoring multiple wireless sensor networks & CI1 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		7 & Software Radios for Unmanned Aerial Systems & CI4 & CE4, CE5, CE6 & Excluído \\ \hline
+		8 & Modeling and analyzing performance of software for wireless sensor networks & CI1 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		9 & Context-aware agriculture organizer & CI1, CI3 & CE4, CE6 & Selecionado \\ \hline
+		10 & IoT system to control greenhouse agriculture based on the needs of Palestinian farmers & CI1, CI2, CI3 & CE4 & Selecionado \\ \hline
+		11 & Spatial knowledge interchange environment: leveraging web 2.0 technologies to breach the knowledge divide in agricultural development & CI1 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		12 & Understanding the user in self-managing systems & CI2 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		13 & Agriculture 4.0: Broadening Responsible Innovation in an Era of Smart Farming & CI1, CI3 & CE6 & Selecionado \\ \hline
+		14 & Data in the garden: a framework for exploring provocative prototypes as part of research in the wild & CI1 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		15 & LeafcheckIT: a banana leaf analyzer for identifying macronutrient deficiency & CI1, CI3 & CE4, CE5, CE6 & Excluído \\ \hline
+		16 & Special issue on Agri-Food 4.0 and digitalization in agriculture supplychains - New directions, challenges and applications & CI1, CI2, CI3 & CE4 & Selecionado \\ \hline
+		17 & Priorities for science to overcome hurdlesthwarting the full promise of the ‘digitalagriculture’ revolution & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		18 & Embracing Opportunities of Livestock Big Data Integration with Privacy Constraints & CI1, CI3 & CE4, CE5 & Excluído \\ \hline
+		19 & Seesaw: end-to-end dynamic sensing for IoT using machine learning & CI1 & CE4, CE5, CE6, CE7 & Excluído \\ \hline
+		20 & Fruit Are Heavy: A Prototype Public IoT System to Support Urban Foraging & CI1, CI3 & CE4, CE5, CE6 & Selecionado \\ \hline
+		21 & Mobile Pollution Data Sensing Using UAVs & - & CE1 & Excluído \\ \hline
+		22 & Experiences Deploying an Always-on Farm Network & CI1, CI3 & CE4, CE5, CE6 & Excluído \\ \hline
+		23 & Wireless sensor networking for rain-fed farming decision support & CI1, CI2, CI3 & - & Selecionado \\ \hline
+		24 & Fire Safety and Alert System Using Arduino Sensors with IoT Integration & CI1 & CE4, CE5, CE6 & Excluído \\ \hline
+		25 & The land management tool: Developing a climate service in Southwest UK & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		26 & Agriculture Information Service Built on Geospatial Data Infrastructure and Crop Modeling & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		27 & Designing Speculative Civics & - & CE1 & Excluiído \\ \hline
+		28 & Citrus Greening Infection Detection (CiGID) by Computer Vision and Deep Learning & - & CE1 & Excluiído \\ \hline
+		29 & Digital Platform for Data Driven Aquaculture Farm Management & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		30 & AcuTe: acoustic thermometer empowered by a single smartphone & - & CE1 & Excluiído \\ \hline
+			\caption{30 primeiras publicações registradas} \label{tab:filtro1} \\
+		\end{longtable}
+	\end{footnotesize}
+
+Após a realização do primeiro filtro, 18 publicações foram excluídas e 12 selecionadas para o próximo filtro
+
+\section{Realização do Segundo Filtro}
+
+Das 12 publicações restantes, os critérios anteriormente definidos foram aplicados mediante à leitura do artigo.
+
+\begin{footnotesize}
+	\begin{longtable}{|c|p{7cm}|p{2cm}|p{2cm}|p{1.6cm}|}
+		\hline 
+		\multicolumn{1}{|c|}{\textbf{ID}} & 
+		\multicolumn{1}{c|}{\textbf{Título}} & 
+		\multicolumn{1}{c|}{\textbf{Inclusão}} &
+		\multicolumn{1}{c|}{\textbf{Exclusão}} &
+		\multicolumn{1}{c|}{\textbf{Status}} \\ \hline 
+		\endfirsthead
+		\endhead
+		\endfoot
+		\endlastfoot
+		1 & Improving digital ecosystems for agriculture: users participation in the design of a mobile app for agrometeorological monitoring & CI1, CI2, CI3 & CE6 & Excluído \\ \hline
+		2 & A Mixed Usability Evaluation on a Multi Criteria Group Decision Support System in Agriculture & CI1, CI2, CI3 & CE4 & Selecionado \\ \hline
+		3 & Context-aware agriculture organizer & CI1, CI3 & CE4, CE6 & Excluído \\ \hline
+		4 & IoT system to control greenhouse agriculture based on the needs of Palestinian farmers & CI1, CI2, CI3 & CE4 & Excluído \\ \hline
+		5 & Agriculture 4.0: Broadening Responsible Innovation in an Era of Smart Farming & CI1, CI3 & CE6 & Selecionado \\ \hline
+		6 & Special issue on Agri-Food 4.0 and digitalization in agriculture supplychains - New directions, challenges and applications & CI1, CI2, CI3 & CE4 & Selecionado \\ \hline
+		7 & Priorities for science to overcome hurdlesthwarting the full promise of the ‘digitalagriculture’ revolution & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		8 & Fruit Are Heavy: A Prototype Public IoT System to Support Urban Foraging & CI1, CI3 & CE4, CE5, CE6 & Excluído \\ \hline
+		9 & Wireless sensor networking for rain-fed farming decision support & CI1, CI2, CI3 & - & Selecionado \\ \hline
+		10 & The land management tool: Developing a climate service in Southwest UK & CI1, CI2, CI3 & CE4, CE5 & Selecionado \\ \hline
+		11 & Agriculture Information Service Built on Geospatial Data Infrastructure and Crop Modeling & CI1, CI2, CI3 & CE4, CE5 & Excluído \\ \hline
+		12 & Digital Platform for Data Driven Aquaculture Farm Management & CI1, CI2, CI3 & CE4, CE5 & Excluído \\ \hline
+			\caption{30 primeiras publicações registradas} \label{tab:filtro2} \\
+		\end{longtable}
+	\end{footnotesize}
+
+\section{Extração de Dados}
+
+Os seguintes artigos selecionados e o processo de extração de dados estão documentados nas Tabelas \ref{tab:extracao1}, \ref{tab:extracao2}, \ref{tab:extracao3}, \ref{tab:extracao4} e \ref{tab:extracao5}.
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{Agriculture 4.0: Broadening Responsible Innovation in an Era of Smart Farming}
+  \label{tab:extracao1}
+\end{table}
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{Special issue on Agri-Food 4.0 and digitalization in agriculture supplychains - New directions, challenges and applications}
+  \label{tab:extracao2}
+\end{table}
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{Priorities for science to overcome hurdlesthwarting the full promise of the ‘digitalagriculture’ revolution}
+  \label{tab:extracao3}
+\end{table}
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{Wireless sensor networking for rain-fed farming decision support}
+  \label{tab:extracao4}
+\end{table}
+
+\begin{table}[!htb]
+	\footnotesize
+  \centering
+	\begin{tabular}{|p{8cm}|p{6cm}|}
+		\hline
+		\textbf{Questão}                                                                           & \textbf{Resposta}                                                      \\ \hline
+		Qual ou quais técnicas, métodos ou ferramentas de Engenharia de Software foram utilizadas? & Diferentes técnicas, métodos ou ferramentas de Engenharia de Software. \\ \hline
+		Quais foram as estratégias de usabilidade utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Quais foram as estratégias de colaboração utilizadas no projeto?                           & Diferentes estratégias de usabilidade.                                 \\ \hline
+		Foi traçado um perfil de usuário?                                                          & Sim-Não                                                                \\ \hline
+		Em que área da Agricultura 4.0 o projeto foi desenvolvido?                                 & Diferentes áreas da Agricultura 4.0                                    \\ \hline
+		Em que plataforma o projeto foi desenvolvido?                                              & Aplicativo - Desktop - Web                                 \\ \hline
+		\end{tabular}
+  \caption{The land management tool: Developing a climate service in Southwest UK}
+  \label{tab:extracao5}
+\end{table}
+
+% \bibliographystyle{sbc}
+% \bibliography{sbc-template}
+
+\end{document}
