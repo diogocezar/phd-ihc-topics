@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  20 NOV 2020 18:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  21 NOV 2020 08:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -172,19 +172,19 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 ) (/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.aux)
 \openout1 = `sbc-template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 43.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -282,57 +282,52 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count116
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <16> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 44.
+(Font)              <12> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 45.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 44.
+(Font)              <6> on input line 45.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 45.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 46.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 73.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 72.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 73.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 164.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 165.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 164.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 165.
  [3] [4]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 278.
+(Font)              <7> on input line 279.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 278.
+(Font)              <5> on input line 279.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 280.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 281.
 
-Underfull \hbox (badness 1005) in paragraph at lines 294--295
+Underfull \hbox (badness 1005) in paragraph at lines 295--296
 \OT1/ptm/m/n/12 Apesar da an[]alise das 50 pri-mei-ras publica[][]oes, indexou-se neste ma-te-rial as 30
  []
 
 
-Overfull \hbox (5.75157pt too wide) in alignment at lines 297--304
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (5.75157pt too wide) in alignment at lines 304--305
+Overfull \hbox (5.75157pt too wide) in alignment at lines 298--305
  [] [] [] [] [] 
  []
 
@@ -347,567 +342,567 @@ Overfull \hbox (5.75157pt too wide) in alignment at lines 306--307
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 309--309
+Overfull \hbox (5.75157pt too wide) in alignment at lines 307--308
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 310--310
 []|\OT1/ptm/m/n/10 An Agile Farm Ma-na-ge-
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 309--309
+Underfull \hbox (badness 5756) in paragraph at lines 310--310
 \OT1/ptm/m/n/10 ment In-for-ma-tion Sys-tem
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
 \OT1/ptm/m/n/10 Fra-mework for Pre-ci-sion
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 314--314
+Underfull \hbox (badness 5189) in paragraph at lines 315--315
 []|\OT1/ptm/m/n/10 Improving di-gi-tal ecosys-
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 317--317
+Underfull \hbox (badness 3635) in paragraph at lines 318--318
 \OT1/ptm/m/n/10 com-pu-ta-ti-o-nal and col-lec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
 \OT1/ptm/m/n/10 mid-dleware for sen-sor
  []
 
 
-Underfull \hbox (badness 3260) in paragraph at lines 321--321
+Underfull \hbox (badness 3260) in paragraph at lines 322--322
 []|\OT1/ptm/m/n/10 Eduardo J Pe-reira Souto,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
 \OT1/ptm/m/n/10 Ger-mano F Gui-mar[]aes,
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 321--321
+Underfull \hbox (badness 1436) in paragraph at lines 322--322
 \OT1/ptm/m/n/10 Glauco Vas-con-ce-los, Mar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
 \OT1/ptm/m/n/10 do-queu Souza Vi-eira,
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 321--321
+Underfull \hbox (badness 7151) in paragraph at lines 322--322
 \OT1/ptm/m/n/10 Andr[]e Gui-mar[]aes Fer-raz,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
 []|\OT1/ptm/m/n/10 Personal and Ubi-qui-tous
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 324--324
+Underfull \hbox (badness 1112) in paragraph at lines 325--325
 []|\OT1/ptm/m/n/10 A Mi-xed Usa-bi-lity Eva-lu-
  []
 
 
-Underfull \hbox (badness 6236) in paragraph at lines 324--324
+Underfull \hbox (badness 6236) in paragraph at lines 325--325
 \OT1/ptm/m/n/10 a-tion on a Multi Cri-te-
  []
 
 
-Underfull \hbox (badness 5008) in paragraph at lines 326--326
+Underfull \hbox (badness 5008) in paragraph at lines 327--327
 []|\OT1/ptm/m/n/10 Juli[]an Gri-gera, Ale-jan-dra
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 327--327
 \OT1/ptm/m/n/10 Gar-rido, Pas-cale Za-rat[]e,
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 326--326
+Underfull \hbox (badness 3769) in paragraph at lines 327--327
 \OT1/ptm/m/n/10 Guy Ca-mil-leri, Ale-jan-dro
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 327--327
+Underfull \hbox (badness 1067) in paragraph at lines 328--328
 []|\OT1/ptm/m/n/10 Interacci[]on 2018: Pro-ce-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 []|\OT1/ptm/m/n/10 Maxwell Bur-nette, Rob
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 331--331
+Underfull \hbox (badness 1215) in paragraph at lines 332--332
 \OT1/ptm/m/n/10 Ko-o-per, John D Ma-lo-ney,
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 331--331
+Underfull \hbox (badness 4673) in paragraph at lines 332--332
 \OT1/ptm/m/n/10 Ga-reth S Rohde, Jef-frey
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 331--331
+Underfull \hbox (badness 8038) in paragraph at lines 332--332
 \OT1/ptm/m/n/10 A Ters-triep, Craig Wil-
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 331--331
+Underfull \hbox (badness 2096) in paragraph at lines 332--332
 \OT1/ptm/m/n/10 lis, Noah Fahl-gren, Todd
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 332--332
+Underfull \hbox (badness 1454) in paragraph at lines 333--333
 []|\OT1/ptm/m/n/10 PEARC '18: Pro-ce-e-dings
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 336--336
+Underfull \hbox (badness 4995) in paragraph at lines 337--337
 []|\OT1/ptm/m/n/10 Athanasios An-to-niou, Io-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 \OT1/ptm/m/n/10 an-nis Chat-zi-gi-an-na-kis,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 \OT1/ptm/m/n/10 Atha-na-sios Ki-na-lis, Ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 336--336
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 \OT1/ptm/m/n/10 or-gios My-lo-nas, So-ti-ris
  []
 
 
-Underfull \hbox (badness 5817) in paragraph at lines 336--336
+Underfull \hbox (badness 5817) in paragraph at lines 337--337
 \OT1/ptm/m/n/10 E Ni-ko-let-seas, Apos-to-los
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 337--337
+Underfull \hbox (badness 6047) in paragraph at lines 338--338
 []|\OT1/ptm/m/n/10 PM2HW2N '07: Pro-ce-
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 337--337
+Underfull \hbox (badness 3568) in paragraph at lines 338--338
 \OT1/ptm/m/n/10 e-dings of the 2nd ACM
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 337--337
+Underfull \hbox (badness 2173) in paragraph at lines 338--338
 \OT1/ptm/m/n/10 workshop on Per-for-mance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 \OT1/ptm/m/n/10 mo-ni-to-ring and me-a-su-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--337
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 \OT1/ptm/m/n/10 re-ment of he-te-ro-ge-ne-ous
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 339--339
+Underfull \hbox (badness 3942) in paragraph at lines 340--340
 []|\OT1/ptm/m/n/10 Software Ra-dios for Un-
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 342--342
+Underfull \hbox (badness 1762) in paragraph at lines 343--343
 []|\OT1/ptm/m/n/10 OpenWireless'20: Pro-ce-e-
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 342--342
+Underfull \hbox (badness 2818) in paragraph at lines 343--343
 \OT1/ptm/m/n/10 dings of the 1st In-ter-na-
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 342--342
+Underfull \hbox (badness 1460) in paragraph at lines 343--343
 \OT1/ptm/m/n/10 ti-o-nal Workshop on Open
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 342--342
+Underfull \hbox (badness 1043) in paragraph at lines 343--343
 \OT1/ptm/m/n/10 Soft-ware De-fi-ned Wi-re-less
  []
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 346--346
+Underfull \hbox (badness 1087) in paragraph at lines 347--347
 []|\OT1/ptm/m/n/10 Luca Be-rar-di-nelli, Vit-to-rio
  []
 
 
-Underfull \hbox (badness 2435) in paragraph at lines 347--347
+Underfull \hbox (badness 2435) in paragraph at lines 348--348
 \OT1/ptm/m/n/10 of the 2nd Workshop on
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 347--347
+Underfull \hbox (badness 6825) in paragraph at lines 348--348
 \OT1/ptm/m/n/10 Soft-ware En-gi-ne-e-ring for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
 []|\OT1/ptm/m/n/10 Context-aware agri-cul-ture
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 352--352
+Underfull \hbox (badness 1371) in paragraph at lines 353--353
 \OT1/ptm/m/n/10 fe-rence on Ubi-qui-tous In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--356
+Underfull \hbox (badness 10000) in paragraph at lines 357--357
 \OT1/ptm/m/n/10 Kh-dair, Mos'ab Ayyash,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/ptm/m/n/10 of the 2nd In-ter-na-ti-o-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--357
+Underfull \hbox (badness 10000) in paragraph at lines 358--358
 \OT1/ptm/m/n/10 Con-fe-rence on Fu-ture
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 357--357
+Underfull \hbox (badness 4647) in paragraph at lines 358--358
 \OT1/ptm/m/n/10 Networks and Dis-tri-bu-ted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--359
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
 []|\OT1/ptm/m/n/10 Spatial kno-wledge in-ter-
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 361--361
+Underfull \hbox (badness 1527) in paragraph at lines 362--362
 \OT1/ptm/m/n/10 ker, Da-vid Ra-ve-ena Ju-die
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 362--362
+Underfull \hbox (badness 5696) in paragraph at lines 363--363
 \OT1/ptm/m/n/10 e-dings of the 1st ACM
  []
 
 
-Underfull \hbox (badness 3758) in paragraph at lines 362--362
+Underfull \hbox (badness 3758) in paragraph at lines 363--363
 \OT1/ptm/m/n/10 SIGS-PA-TIAL In-ter-na-ti-o-nal
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 364--364
+Underfull \hbox (badness 1365) in paragraph at lines 365--365
 []|\OT1/ptm/m/n/10 Understanding the user in
  []
 
 
-Underfull \hbox (badness 2884) in paragraph at lines 369--369
+Underfull \hbox (badness 2884) in paragraph at lines 370--370
 \OT1/ptm/m/n/10 Res-pon-si-ble In-no-va-tion in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 372--372
+Underfull \hbox (badness 10000) in paragraph at lines 373--373
 \OT1/ptm/m/n/10 tai-na-bi-lity (3S) Re-se-arch
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 372--372
+Underfull \hbox (badness 2142) in paragraph at lines 373--373
 \OT1/ptm/m/n/10 of East An-glia, Norwich,
  []
 
 
-Underfull \hbox (badness 1546) in paragraph at lines 376--376
+Underfull \hbox (badness 1546) in paragraph at lines 377--377
 []|\OT1/ptm/m/n/10 Geraint Rhys Sethu-Jones,
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 376--376
+Underfull \hbox (badness 4872) in paragraph at lines 377--377
 \OT1/ptm/m/n/10 Y. Ro-gers, Ni-co-lai Mar-
  []
 
 
-Underfull \hbox (badness 2213) in paragraph at lines 381--381
+Underfull \hbox (badness 2213) in paragraph at lines 382--382
 []|\OT1/ptm/m/n/10 Jonilyn A. Te-jada, Glenn
  []
 
 
-Underfull \hbox (badness 7291) in paragraph at lines 384--384
+Underfull \hbox (badness 7291) in paragraph at lines 385--385
 \OT1/ptm/m/n/10 4.0 and di-gi-ta-li-za-tion in
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 384--384
+Underfull \hbox (badness 3635) in paragraph at lines 385--385
 \OT1/ptm/m/n/10 agri-cul-ture sup-ply-chains -
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 386--386
+Underfull \hbox (badness 1062) in paragraph at lines 387--387
 \OT1/ptm/m/n/10 che , Jorge E. Her-nan-dez
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 388--388
 []|\OT1/ptm/m/n/10 Computers in In-dus-try-
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 387--387
+Underfull \hbox (badness 2503) in paragraph at lines 388--388
 \OT1/ptm/m/n/10 Vo-lume 116, April 2020,
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 389--389
+Underfull \hbox (badness 1412) in paragraph at lines 390--390
 \OT1/ptm/m/n/10 come hur-dlesthwar-ting the
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 391--391
+Underfull \hbox (badness 1776) in paragraph at lines 392--392
 []|\OT1/ptm/m/n/10 Mark Shepherd, Ja-mes A
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 391--391
+Underfull \hbox (badness 1424) in paragraph at lines 392--392
 \OT1/ptm/m/n/10 Tur-ner, Bruce Small, Da-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 392--392
+Underfull \hbox (badness 1377) in paragraph at lines 393--393
 []|\OT1/ptm/m/n/10 Journal of the Sci-ence of
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 392--392
+Underfull \hbox (badness 1910) in paragraph at lines 393--393
 \OT1/ptm/m/n/10 Food and Agri-cul-ture pu-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 392--392
+Underfull \hbox (badness 1365) in paragraph at lines 393--393
 \OT1/ptm/m/n/10 blished by John Wi-ley &
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 394--394
+Underfull \hbox (badness 3746) in paragraph at lines 395--395
 \OT1/ptm/m/n/10 Li-ves-tock Big Data In-te-
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 396--396
+Underfull \hbox (badness 1735) in paragraph at lines 397--397
 []|\OT1/ptm/m/n/10 Franz Papst, Olga Saukh,
  []
 
 
-Underfull \hbox (badness 1168) in paragraph at lines 397--397
+Underfull \hbox (badness 1168) in paragraph at lines 398--398
 \OT1/ptm/m/n/10 the 9th In-ter-na-ti-o-nal Con-
  []
 
 
-Overfull \hbox (5.75157pt too wide) in alignment at lines 307--407
+Overfull \hbox (5.75157pt too wide) in alignment at lines 308--408
  [] [] [] [] [] 
  []
 
 [5]
-Underfull \hbox (badness 3009) in paragraph at lines 411--411
+Underfull \hbox (badness 3009) in paragraph at lines 412--412
 []|[]\OT1/ptm/m/n/10 Oscar Al-vear, C. T. Ca-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 411--411
+Underfull \hbox (badness 2556) in paragraph at lines 412--412
 \OT1/ptm/m/n/10 Juan Car-los Cano, Pi-e-tro
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 412--412
+Underfull \hbox (badness 5274) in paragraph at lines 413--413
 \OT1/ptm/m/n/10 of the 13th In-ter-na-ti-o-nal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
 \OT1/ptm/m/n/10 Con-fe-rence on Ad-van-ces
  []
 
 
-Underfull \hbox (badness 1158) in paragraph at lines 412--412
+Underfull \hbox (badness 1158) in paragraph at lines 413--413
 \OT1/ptm/m/n/10 in Mo-bile Com-pu-ting and
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 414--414
+Underfull \hbox (badness 2173) in paragraph at lines 415--415
 []|\OT1/ptm/m/n/10 Experiences De-ploying an
  []
 
 
-Underfull \hbox (badness 1642) in paragraph at lines 419--419
+Underfull \hbox (badness 1642) in paragraph at lines 420--420
 \OT1/ptm/m/n/10 for rain-fed far-ming de-ci-
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 421--421
+Underfull \hbox (badness 3942) in paragraph at lines 422--422
 []|\OT1/ptm/m/n/10 Jacques Pan-chard, Sesha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 \OT1/ptm/m/n/10 giri Rao, Ma-da-va-lam S
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
 \OT1/ptm/m/n/10 Sheshshayee, Pa-na-gi-o-tis
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 421--421
+Underfull \hbox (badness 1960) in paragraph at lines 422--422
 \OT1/ptm/m/n/10 manth Ku-mar, Jean-Pierre
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 422--422
+Underfull \hbox (badness 4967) in paragraph at lines 423--423
 []|\OT1/ptm/m/n/10 NSDR '08: Pro-ce-e-dings
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 422--422
+Underfull \hbox (badness 1178) in paragraph at lines 423--423
 \OT1/ptm/m/n/10 of the se-cond ACM SIG-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
 \OT1/ptm/m/n/10 COMM workshop on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 422--422
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
 \OT1/ptm/m/n/10 Networ-ked sys-tems for
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 426--426
+Underfull \hbox (badness 1412) in paragraph at lines 427--427
 \OT1/ptm/m/n/10 orge R Vil-la-nu-eva, Na-po-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 429--429
+Underfull \hbox (badness 1616) in paragraph at lines 430--430
 \OT1/ptm/m/n/10 De-ve-lo-ping a cli-mate ser-
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 431--431
+Underfull \hbox (badness 1466) in paragraph at lines 432--432
 \OT1/ptm/m/n/10 de Vre-ede, Wim Som de
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 431--431
+Underfull \hbox (badness 7238) in paragraph at lines 432--432
 \OT1/ptm/m/n/10 Cerff, Carlo Bu-on-tempo,
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 431--431
+Underfull \hbox (badness 7667) in paragraph at lines 432--432
 \OT1/ptm/m/n/10 Anca Bro-okshaw, Si-mon
  []
 
 
-Underfull \hbox (badness 1924) in paragraph at lines 431--431
+Underfull \hbox (badness 1924) in paragraph at lines 432--432
 \OT1/ptm/m/n/10 Stan-ley, Ross Mid-dleham,
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 431--431
+Underfull \hbox (badness 3199) in paragraph at lines 432--432
 \OT1/ptm/m/n/10 Daisy Pit-tams, El-len La-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []|\OT1/ptm/m/n/10 Agriculture In-for-ma-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 \OT1/ptm/m/n/10 Data In-fras-truc-ture and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 \OT1/ptm/m/n/10 Wi-tayang-kurn, Ras-sa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 \OT1/ptm/m/n/10 rin Chin-na-chod-te-e-ra-nun,
  []
 
 
-Underfull \hbox (badness 3449) in paragraph at lines 437--437
+Underfull \hbox (badness 3449) in paragraph at lines 438--438
 \OT1/ptm/m/n/10 of the 2014 In-ter-na-ti-o-nal
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 437--437
+Underfull \hbox (badness 1147) in paragraph at lines 438--438
 \OT1/ptm/m/n/10 Workshop on Web In-tel-li-
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 439--439
+Underfull \hbox (badness 2401) in paragraph at lines 440--440
 []|\OT1/ptm/m/n/10 Designing Spe-cu-la-tive Ci-
  []
 
 
-Underfull \hbox (badness 1616) in paragraph at lines 442--442
+Underfull \hbox (badness 1616) in paragraph at lines 443--443
 []|\OT1/ptm/m/n/10 CHI '16: Pro-ce-e-dings of
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 444--444
+Underfull \hbox (badness 4995) in paragraph at lines 445--445
 []|\OT1/ptm/m/n/10 Citrus Gre-e-ning In-fec-tion
  []
 
 
-Underfull \hbox (badness 2503) in paragraph at lines 446--446
+Underfull \hbox (badness 2503) in paragraph at lines 447--447
 []|\OT1/ptm/m/n/10 Charles T. Soini, So-fi-ane
  []
 
 
-Underfull \hbox (badness 2401) in paragraph at lines 449--449
+Underfull \hbox (badness 2401) in paragraph at lines 450--450
 []|\OT1/ptm/m/n/10 Digital Plat-form for Data
  []
 
 
-Underfull \hbox (badness 4995) in paragraph at lines 449--449
+Underfull \hbox (badness 4995) in paragraph at lines 450--450
 \OT1/ptm/m/n/10 Dri-ven Aqua-cul-ture Farm
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 452--452
+Underfull \hbox (badness 1859) in paragraph at lines 453--453
 []|\OT1/ptm/m/n/10 IndiaHCI'15: Pro-ce-e-dings
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 457--457
+Underfull \hbox (badness 2253) in paragraph at lines 458--458
 \OT1/ptm/m/n/10 bed-ded Networ-ked Sen-sor
  []
 
 
-Overfull \hbox (5.75157pt too wide) in alignment at lines 407--459
+Overfull \hbox (5.75157pt too wide) in alignment at lines 408--460
  [] [] [] [] [] 
  []
 
 [6] [7] [8]
-Overfull \hbox (2.82338pt too wide) in alignment at lines 467--474
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.82338pt too wide) in alignment at lines 474--475
+Overfull \hbox (2.82338pt too wide) in alignment at lines 468--475
  [] [] [] [] [] 
  []
 
@@ -922,33 +917,33 @@ Overfull \hbox (2.82338pt too wide) in alignment at lines 476--477
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--478
+Overfull \hbox (2.82338pt too wide) in alignment at lines 477--478
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--479
 []|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 479--479
+Underfull \hbox (badness 2799) in paragraph at lines 480--480
 []|\OT1/ptm/m/n/10 Improving di-gi-tal ecosys-tems for agri-cul-ture:
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 479--479
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 480--480
 []|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\OT1/ptm/m/n/10 CE3, CE4,
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 481--481
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 482--482
 []|\OT1/ptm/m/n/10 Selecionado| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--482
-[]|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
@@ -967,8 +962,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--485
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 486--486
-[]|\OT1/ptm/m/n/10 Selecionado| 
+Underfull \hbox (badness 10000) in paragraph at lines 486--486
+[]|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
@@ -977,8 +972,8 @@ Overfull \hbox (3.3549pt too wide) in paragraph at lines 487--487
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 488--488
-[]|\OT1/ptm/m/n/10 CE4, CE5,
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 488--488
+[]|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
@@ -987,13 +982,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 489--489
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 490--490
-[]|\OT1/ptm/m/n/10 Selecionado| 
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
+[]|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 491--491
-[]|\OT1/ptm/m/n/10 CE4, CE5,
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 491--491
+[]|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
@@ -1002,8 +997,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 492--492
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 493--493
-[]|\OT1/ptm/m/n/10 Selecionado| 
+Underfull \hbox (badness 10000) in paragraph at lines 493--493
+[]|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
@@ -1012,13 +1007,13 @@ Overfull \hbox (3.3549pt too wide) in paragraph at lines 494--494
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 496--496
-[]|\OT1/ptm/m/n/10 Seesaw: end-to-end dy-na-mic sen-sing for IoT
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 495--495
+[]|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 496--496
-[]|\OT1/ptm/m/n/10 CE4, CE5,
+Underfull \hbox (badness 1028) in paragraph at lines 497--497
+[]|\OT1/ptm/m/n/10 Seesaw: end-to-end dy-na-mic sen-sing for IoT
  []
 
 
@@ -1027,38 +1022,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 497--497
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 497--497
+Underfull \hbox (badness 10000) in paragraph at lines 498--498
+[]|\OT1/ptm/m/n/10 CE4, CE5,
+ []
+
+
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 498--498
 []|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Overfull \hbox (2.82338pt too wide) in alignment at lines 477--497
+Overfull \hbox (2.82338pt too wide) in alignment at lines 478--498
  [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 499--499
+Underfull \hbox (badness 6461) in paragraph at lines 500--500
 []|\OT1/ptm/m/n/10 Experiences De-ploying an Always-on Farm
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 499--499
+Underfull \hbox (badness 10000) in paragraph at lines 500--500
 []|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 500--500
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 501--501
 []|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--501
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []|\OT1/ptm/m/n/10 CE4, CE5,
- []
-
-
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 502--502
-[]|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
@@ -1067,27 +1062,27 @@ Overfull \hbox (3.3549pt too wide) in paragraph at lines 503--503
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 506--506
-[]|\OT1/ptm/m/n/10 Digital Plat-form for Data Dri-ven Aqua-cul-ture
- []
-
-
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 506--506
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 504--504
 []|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Overfull \hbox (2.82338pt too wide) in alignment at lines 497--509
+Underfull \hbox (badness 1072) in paragraph at lines 507--507
+[]|\OT1/ptm/m/n/10 Digital Plat-form for Data Dri-ven Aqua-cul-ture
+ []
+
+
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 507--507
+[]|\OT1/ptm/m/n/10 Selecionado| 
+ []
+
+
+Overfull \hbox (2.82338pt too wide) in alignment at lines 498--510
  [] [] [] [] [] 
  []
 
 [9]
-Overfull \hbox (2.82338pt too wide) in alignment at lines 519--526
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (2.82338pt too wide) in alignment at lines 526--527
+Overfull \hbox (2.82338pt too wide) in alignment at lines 520--527
  [] [] [] [] [] 
  []
 
@@ -1102,17 +1097,17 @@ Overfull \hbox (2.82338pt too wide) in alignment at lines 528--529
  []
 
 
-Underfull \hbox (badness 2799) in paragraph at lines 530--530
+Overfull \hbox (2.82338pt too wide) in alignment at lines 529--530
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 2799) in paragraph at lines 531--531
 []|\OT1/ptm/m/n/10 Improving di-gi-tal ecosys-tems for agri-cul-ture:
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 531--531
-[]|\OT1/ptm/m/n/10 Selecionado| 
- []
-
-
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 534--534
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 532--532
 []|\OT1/ptm/m/n/10 Selecionado| 
  []
 
@@ -1127,13 +1122,13 @@ Overfull \hbox (3.3549pt too wide) in paragraph at lines 536--536
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--537
-[]|\OT1/ptm/m/n/10 CE4, CE5,
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 537--537
+[]|\OT1/ptm/m/n/10 Selecionado| 
  []
 
 
-Overfull \hbox (3.3549pt too wide) in paragraph at lines 538--538
-[]|\OT1/ptm/m/n/10 Selecionado| 
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/10 CE4, CE5,
  []
 
 
@@ -1142,29 +1137,59 @@ Overfull \hbox (3.3549pt too wide) in paragraph at lines 539--539
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 541--541
+Overfull \hbox (3.3549pt too wide) in paragraph at lines 540--540
+[]|\OT1/ptm/m/n/10 Selecionado| 
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 542--542
 []|\OT1/ptm/m/n/10 Digital Plat-form for Data Dri-ven Aqua-cul-ture
  []
 
 
-Overfull \hbox (2.82338pt too wide) in alignment at lines 529--543
+Overfull \hbox (2.82338pt too wide) in alignment at lines 530--544
  [] [] [] [] [] 
  []
 
-[10] [11] [12] (/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.aux) ) 
+[10]
+Underfull \hbox (badness 1442) in paragraph at lines 574--574
+[]\OT1/ptm/m/n/10 Explora-se tra-ba-lhos re-le-van-tes da []area
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 576--576
+[]\OT1/ptm/m/n/10 Alguns tra-ba-lhos in-de-xa-dos pos-suem o
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 591--591
+\OT1/ptm/m/n/10 re-ci-ona a revolu[][]ao agr[]^^Pcola, sen-so-res,
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 595--595
+[]\OT1/ptm/m/n/10 O tra-ba-lho ex-plora di-fe-ren-tes []areas da
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 629--629
+\OT1/ptm/m/n/10 possa ne-ces-si-tar de pre-vis[]ao clim[]atica
+ []
+
+[11] [12] [13] (/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.aux) ) 
 Here is how much of TeX's memory you used:
  6203 strings out of 492649
  89709 string characters out of 6129621
- 224608 words of memory out of 5000000
+ 224602 words of memory out of 5000000
  9988 multiletter control sequences out of 15000+600000
  27013 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,13n,46p,886b,1110s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf (12 pages, 124066 bytes).
+Output written on /Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf (13 pages, 126847 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 80 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

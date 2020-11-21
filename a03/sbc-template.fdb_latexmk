@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1605907044 "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.tex" "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf" "sbc-template" 1605907045
-  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.aux" 1605907044 4491 cf3707fd085ced553e955a35d8e1a767 ""
-  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.tex" 1605907043 36732 44b06084c992d96dada87d9840acb893 ""
+["pdflatex"] 1605958118 "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.tex" "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf" "sbc-template" 1605958119
+  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.aux" 1605958119 4491 3a518114b4cda277f1534404526f6a1e ""
+  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.tex" 1605958117 37874 27eb0817e40a345cc6ddd5a45c2c27e6 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -91,12 +91,12 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1544732100 4220281 d4474a244bf1b153d2b8959e8c005881 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "sbc-template.aux" 1605907044 4491 cf3707fd085ced553e955a35d8e1a767 ""
+  "sbc-template.aux" 1605958119 4491 3a518114b4cda277f1534404526f6a1e ""
   "sbc-template.sty" 1605894238 6074 ecc54df5124d8db4ac67c42cc728f3a5 ""
-  "sbc-template.tex" 1605907043 36732 44b06084c992d96dada87d9840acb893 ""
+  "sbc-template.tex" 1605958117 37874 27eb0817e40a345cc6ddd5a45c2c27e6 ""
   (generated)
-  "sbc-template.pdf"
   "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.log"
-  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf"
-  "sbc-template.aux"
   "sbc-template.log"
+  "sbc-template.aux"
+  "/Users/diogocezar/phd/phd-ihc-topics/a03/sbc-template.pdf"
+  "sbc-template.pdf"
