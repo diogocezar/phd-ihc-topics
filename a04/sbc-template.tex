@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+\usepackage[justification=centering]{caption}
+
+\lstset{
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberstyle=\tiny,
+	extendedchars=true,
+	breaklines=true,
+	frame=single,
+	showstringspaces=false,
+	xleftmargin=2.5em,
+	framexleftmargin=2em,
+	basicstyle=\small,
+}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+
+     
+\sloppy
+
+\title{Planejamento e Execução de um Experimento de Usabilidade do site XPTO}
+
+\author{Diogo C. T. Batista\inst{1}, Elissandra G. Pereira\inst{1}}
+
+\address{Universidade Federal do Paraná (UFPR)\\
+	Curitiba -- Paraná -- Brasil
+	\email{diogocezar@ufpr.br,egpereira@inf.ufpr.br}
+	}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+  Este artigo descreve o planejamento de um experimento de usabilidade do site do Laboratório de Dados Educacionais. Foi definido para esse fim a execução de um questionário por pessoas com formação na área de Ciência da Computação. O texto explica as escolhas que levaram a essa decisão, explicitando também possíveis ameaças à validade do experimento.
+\end{resumo}
+
+\section{Definição do Objetivo}
+
+De acordo com o paradigma GQM, os objetidos deste experimento podem ser definidos como:
+
+
+\section{Formulação de Hipóteses}
+
+Propõe-se a utilização de hipóteses do tipo \textit{nula} e \textit{alternativa}, sendo:
+
+\begin{itemize}
+	\item \textbf{Hipótese Nula - H0}: Não há diferença entre o menu do site em versão desktop e o menu na sua versão móvel em relação à sua usabilidade.
+	\item \textbf{Hipótese Alternativa - H1}: Há uma diferença entre o menu do site em versão desktop e o menu na sua versão móvel em relação à sua usabilidade.
+\end{itemize}
+
+\section{Seleção de Variáveis}
+
+Utiliza-se a seleção de variáveis \textit{dependentes} e \textit{independentes}:
+
+\begin{itemize}
+	\item \textbf{Variáveis Independentes}: versão do site do LDE (\textit{mobile} ou \textit{desktop});
+	\item \textbf{Variáveis dependentes}: percepção de usabilidade;
+\end{itemize}
+
+\subsection{Definição da coleta e cálculo das variáveis dependentes}
+
+A coleta das variáveis dependentes se fará através de um questionário. O questionário é composto de perguntas relacionadas à indicadores de eficácia e facilidade de uso percebida. Na eficácia, será calculada a quantidade de pessoas que completaram a tarefa. Na facilidade de uso, será considerada a resposta do participante sobre sua percepção de dificuldade ou facilidade na realização da tarefa por meio de uma escala Likert. 
+
+\section{Especificação do design do estudo}
+
+Decidimos por realizar um experimento between group. Isso significa que dividiremos os participantes em dois grupos, no qual cada grupo será exposto uma versão diferente do site. Essa decisão foi tomada pois teríamos problemas com o seu oposto, o within group,  que definiria que cada participante seria exposto a ambas versões. Neste caso, o usuário poderia aprender com uma versão do site, tendo maior facilidade quando fosse avaliar outra.
+
+\section{Seleção de participantes e ambiente/local onde o estudo deve ser realizado}
+
+Devido ao pouco tempo e pouca disponibilidade de participantes, foram escolhidos como amostra pessoas com formação na área de Ciência da Computação. A justificativa é que se um público com conhecimento mais avançado encontrar dificuldades com o sistema, isso impactará que usuários mais leigos possivelmente encontrarão problemas também. É importante ressaltar contudo que o oposto não se faz realidade: uma facilidade desse público não necessariamente reflete na facilidade de outros públicos.
+
+O estudo será virtual, não necessitando de um ambiente específico para sua realização.
+
+\section{Definição de Instrumentação}
+
+A instrumentação para a pesquisa é dividida em: Termo de Consentimento Livre e Esclarecido (TCLE) e questionário de uso para informar e coletar a informação dos participantes;
+
+\section{Avaliação das ameaças à validade}
+
+A ameaça à validade baseada no tipo dos participantes já foi descrita no item 5. Contudo podemos destacar que participantes com maior experiência na área de Interação Humano Computador também podem vir a ter vieses que os levem a conclusões diferentes daqueles com maior carência nesse quesito.
+
+Uma outra ameaça pode ocorrer caso tamanho da amostra não se mostre numeroso. Nesse caso as diferenças individuais terão grande impacto no resultado, que pode não ser expressivo.
+
+O formato da avaliação ser virtual possibilita a ocorrência de fraudes, ou seja, pessoas passíveis de responder os enunciados propostos de maneira aleatória. Além disso, tanto monitores quanto smartphones podem ter resoluções diferentes entre si, fazendo com que usuários com backgrounds similares possam vir a ter experiências distintas.
+
+\section{Preparação para o Piloto}
+
+Para a execução do piloto do experimento, foram escolhidos formados na área de Ciência da Computação para a amostra. Antes de qualquer coisa, os participantes foram separados em dois grupos distintos entre si, no qual um grupo ficaria responsável para o experimento com a versão móvel do site do Laboratório de Dados Educacionais e outro com a versão desktop desse mesmo site. A distribuição foi feita de maneira aleatória, mas garantindo um número igual de participantes para ambos os testes.
+
+\section{Etapas do Experimento}
+
+O participante do experimento, sendo ele de qualquer grupo, recebeu um link com o formulário online a ser respondido (google forms) contendo as informações sobre o experimento e perguntas do questionário, devidamente separados em seções:
+
+Inicialmente lhes foi apresentado um Termo de Consentimento Livre Esclarecido (TCLE), informando, entre outros pontos, o objetivo do teste, informações sobre a segurança dos dados e o contato dos aplicadores do experimento.
+
+Após a confirmação do termo os participantes foram expostos a explicação da tarefa a ser realizada (apêndice 1).
+
+Na sequência, foi solicitado que respondessem um questionário (apêndice 2) a respeito da efetividade e eficiência do que foi a etapa final do experimento.
+
+\section{Descrição dos participantes}
+
+Tabela
+
+\section{Como os procedimentos foram realizados}
+
+Para suportar o momento de isolamento atual, escolhemos uma forma de teste aplicada a distância. A plataforma utilizada foi o Google Forms, por sua facilidade de criação (na hora de elaborar o formulário) e compreensão (familiaridade do público com o formato). 
+Para aplicar o teste convidamos os participantes e enviamos o link do formulário contendo as etapas do experimento, detalhadas no tópico 2.
+
+\section{Enunciado do Problema}
+
+\section{Questões aplicadas}
+
+% \bibliographystyle{sbc}
+% \bibliography{sbc-template}
+
+\end{document}
