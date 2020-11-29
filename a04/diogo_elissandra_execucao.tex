@@ -1,0 +1,152 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{listings}
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+\usepackage{longtable}
+\usepackage[justification=centering]{caption}
+
+\lstset{
+	numbers=left,
+	stepnumber=1,
+	firstnumber=1,
+	numberstyle=\tiny,
+	extendedchars=true,
+	breaklines=true,
+	frame=single,
+	showstringspaces=false,
+	xleftmargin=2.5em,
+	framexleftmargin=2em,
+	basicstyle=\small,
+}
+
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+
+\sloppy
+
+\title{Execução de um Experimento de Usabilidade em um Aplicativo com Informativos sobre Infecções Sexualmente Transmissíveis}
+
+\author{Diogo C. T. Batista\inst{1}, Elissandra G. Pereira\inst{1}}
+
+\address{Universidade Federal do Paraná (UFPR)\\
+	Curitiba -- Paraná -- Brasil
+	\email{diogocezar@ufpr.br,egpereira@inf.ufpr.br}
+	}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{resumo}
+	Este projeto descreve a execução de um experimento de validação do uso de diretrizes de design no auxílio da compreensão da informação em um aplicativo de ensino sobre infecções sexualmente transmissíveis. O alvo do estudo é orientado à exposição de duas opções do mesmo conteúdo, na primeira expõe-se apenas um texto original com os conteúdos sobre as doenças, na segunda, apresenta o mesmo conteúdo com redesign seguindo diretrizes de design. Para análise dos resultados, definiu-se a execução de um questionário que avalia a compreensão do conteúdo.
+\end{resumo}
+
+\section{Preparação para o Piloto}
+
+Para a execução do piloto do experimento, foram escolhidos seis estudantes universitários para a amostra. Os participantes foram separados em dois grupos distintos entre si, no qual um grupo ficaria responsável para o experimento com a versão que apresenta apenas a tela original do aplicativo sem modificação, e o outro será exposto a tela com as diretrizes de design aplicadas. A distribuição foi feita de maneira aleatória, mas garantindo um número igual de participantes para ambos os testes.
+
+Utilizou-se como ferramenta o \textit{software} Figma, para a construção dos protótipos das aplicações e o Google Forms para aplicação dos questionários.
+
+\section{Etapas do Experimento}
+\label{experimento}
+
+O participante do experimento, sendo ele de qualquer grupo, recebeu um \textit{link} com o formulário online a ser respondido (google forms) contendo as informações sobre o experimento e perguntas do questionário, devidamente separados em seções:
+
+\begin{enumerate}
+\item Termo de Consentimento Livre Esclarecido (TCLE), informando, entre outros pontos, o objetivo do teste, informações sobre a segurança dos dados e o contato dos aplicadores do experimento;
+\item Após a confirmação do termo os participantes foram expostos a explicação da tarefa a ser realizada (Sessão \ref{ap:explicacao});
+\item Na sequência, foi solicitado que respondessem um questionário (Sessão \ref{ap:questoes}) a respeito da efetividade e eficiência do que foi a etapa final do experimento.
+\end{enumerate}
+
+\section{Como os procedimentos foram realizados}
+
+Para suportar o momento de isolamento atual, escolhemos uma forma de teste aplicada a distância. A plataforma utilizada foi o Google Forms, por sua facilidade de criação (na hora de elaborar o formulário) e compreensão (familiaridade do público com o formato).
+
+Para aplicar o teste convidamos os participantes e enviamos o link do formulário contendo as etapas do experimento, detalhadas na Sessão \ref{experimento}.
+
+\section{Descrição dos participantes}
+
+A seguir estão tabulados os dados dos participantes que participaram do experimento.
+
+Na Tabela \ref{tab:no_guidelines} estão as informações dos participantes que foram submetidos ao protótipo do aplicativo sem a utilização das \textit{guidelines} de \textit{design}. Na Tabela \ref{tab:guidelines} estão as informações dos participantes que foram submetidos ao protótipo do aplicativo com a utilização das \textit{guidelines} de \textit{design}.
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Faixa Etária} & \textbf{Formação} & \textbf{Área do Conhecimento} \\ \hline
+		26-33 & Graduação Completa & Biológicas \\ \hline
+		26-33 & Pós Graduação Completa & Humanas \\ \hline
+		26-33 & Pós Graduação Incompleta & Humanas \\ \hline
+		\end{tabular}
+  \caption{Participantes sem \textit{guidelines} de \textit{design}.}
+  \label{tab:no_guidelines}
+\end{table}
+
+\begin{table}[!htb]
+  \centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\textbf{Faixa Etária} & \textbf{Formação} & \textbf{Área do Conhecimento} \\ \hline
+		26-33 & Pós Graduação Completa & Exatas \\ \hline
+		18-25 & Ensino Superior Incompleto & Humanas \\ \hline
+		26-3318-25 & Ensino Superior Incompleto & Exatas \\ \hline
+		\end{tabular}
+  \caption{Participantes com \textit{guidelines} de \textit{design}.}
+  \label{tab:guidelines}
+\end{table}
+
+\section{Apêndice 1: Explicação da Tarefa}
+\label{ap:explicacao}
+
+Pedimos que acesse o protótipo do aplicativo ``Papo de Adolescente'' pelo seu computador \textit{desktop} ou \textit{notebook}, através do link:
+
+\url{https://www.figma.com/proto/SJ3w95Ygfq7s7lgqnugRj4/Prot%C3%B3tipo-%22Papo-de-Adolescente%22?node-id=1%3A3&scaling=scale-down}
+
+Acessando o protótipo, pedimos que:
+
+\begin{itemize}
+	\item Leia e se familiarize com o conteúdo da tela;
+	\item Deixe o protótipo aberto em uma aba separada, caso deseje voltar a consultá-lo.
+\end{itemize}
+
+\section{Apêndice 2: Questões Aplicadas}
+\label{ap:questoes}
+
+\subsection{Sobre o Conteúdo}
+
+Responda de acordo com o que o aplicativo informa. 
+
+Sinta-se à vontade para consultar o app para responder as perguntas caso sinta necessidade. 
+
+Caso não encontre a informação, apenas responda que não encontrou.
+
+\begin{enumerate}
+	\item Quais são os sintomas da segunda fase da aids? \textit{Formato: Texto};
+	\item Você consultou o app para responder a questão anterior? \textit{Formato: Opções (Sim/Não)};
+	\item Quais são os sinais e sintomas da doença inflamatória pélvica? \textit{Formato: Texto};
+	\item Você consultou o app para responder a questão anterior? \textit{Formato: Opções: Sim/Não};
+	\item Quais causas de corrimento não são consideradas Infecções Sexualmente Transmissíveis? \textit{Formato: Texto};
+	\item Você consultou o app para responder a questão anterior? \textit{Formato: Opções (Sim/Não)};
+\end{enumerate}
+
+\subsection{Sobre a usabilidade e satisfação}
+
+\begin{enumerate}
+	\item Como foi realizar a tarefa de encontrar informações no aplicativo? \textit{Formato: Escala (1-5). Com 1 sendo muito insatisfeito e 5 sendo muito satisfeito};
+	\item Você se sentiu satisfeito com a aparência do aplicativo? \textit{Formato: Escala (1-5). Com 1 sendo muito insatisfeito e 5 sendo muito satisfeito};
+	\item Você acredita que outros universitários conseguiriam entender com facilidade o conteúdo do aplicativo? \textit{Formato: Escala (1-5). Com 1 sendo muito insatisfeito e 5 sendo muito satisfeito};
+	\item Você acredita que outros universitários gostariam da aparência do aplicativo? \textit{Formato: Escala (1-5). Com 1 sendo muito insatisfeito e 5 sendo muito satisfeito};
+	\item Qual é a sua formação? \textit{Formato: Lista (Ensino Superior Incompleto, Ensino Superior Completo, Pós Graduação Incompleta, Pós Graduação Completa, Doutorado Incompleto, Doutorado Completo, Outro)};
+	\item Dentro de qual área do conhecimento seu curso se classifica? \textit{Formato: Lista (Exatas, Humanas, Biológicas)};
+	\item Qual é a sua faixa etária? \textit{Formato: Lista (18-25, 26-33, 34-41)};
+\end{enumerate}
+
+
+\end{document}
