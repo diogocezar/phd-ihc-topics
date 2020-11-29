@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex diogo_elissandra_planejamento"] 1606687306 "diogo_elissandra_planejamento.aux" "diogo_elissandra_planejamento.bbl" "diogo_elissandra_planejamento" 1606687308
+["bibtex diogo_elissandra_planejamento"] 1606687306 "diogo_elissandra_planejamento.aux" "diogo_elissandra_planejamento.bbl" "diogo_elissandra_planejamento" 1606688052
   "./sbc.bst" 1606237857 21864 a668496cca21cfdd211f7fb5f0d57565 ""
-  "diogo_elissandra_planejamento.aux" 1606687308 2251 5c3c07d668f784ad693273ff36137ccb ""
+  "diogo_elissandra_planejamento.aux" 1606688052 2251 5c3c07d668f784ad693273ff36137ccb ""
   "sbc-template.bib" 1606681463 1821 d42a16fda65c93ca9cdbd715fe4efce9 ""
   (generated)
   "diogo_elissandra_planejamento.blg"
   "diogo_elissandra_planejamento.bbl"
-["pdflatex"] 1606687306 "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.tex" "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.pdf" "diogo_elissandra_planejamento" 1606687308
-  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.aux" 1606687308 2251 5c3c07d668f784ad693273ff36137ccb ""
-  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.tex" 1606687302 12554 07b492c1cdafe5c2490b1d55cd1cb954 ""
+["pdflatex"] 1606688050 "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.tex" "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.pdf" "diogo_elissandra_planejamento" 1606688052
+  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.aux" 1606688052 2251 5c3c07d668f784ad693273ff36137ccb ""
+  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.tex" 1606688050 12568 f5483faaed24d46a965c89d1622394b8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -99,16 +99,16 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1544732100 4220281 d4474a244bf1b153d2b8959e8c005881 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "diogo_elissandra_planejamento.aux" 1606687308 2251 5c3c07d668f784ad693273ff36137ccb ""
+  "diogo_elissandra_planejamento.aux" 1606688052 2251 5c3c07d668f784ad693273ff36137ccb ""
   "diogo_elissandra_planejamento.bbl" 1606687306 258 277dfe095e68b36633bd6e4d9715b0d3 "bibtex diogo_elissandra_planejamento"
-  "diogo_elissandra_planejamento.tex" 1606687302 12554 07b492c1cdafe5c2490b1d55cd1cb954 ""
+  "diogo_elissandra_planejamento.tex" 1606688050 12568 f5483faaed24d46a965c89d1622394b8 ""
   "images/image_1.png" 1606681732 857236 5ee802d7feb30912f59286348c0d5ac4 ""
   "images/image_2.png" 1606682505 917174 c3d680d32e2d6bb4e7b72b8da90a7c23 ""
   "images/image_3.png" 1606682850 389452 8c234f5a8abc3973d3abf3735c732300 ""
   "sbc-template.sty" 1606237857 6074 ecc54df5124d8db4ac67c42cc728f3a5 ""
   (generated)
-  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.log"
-  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.pdf"
   "diogo_elissandra_planejamento.pdf"
   "diogo_elissandra_planejamento.aux"
   "diogo_elissandra_planejamento.log"
+  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.pdf"
+  "/Users/diogocezar/phd/phd-ihc-topics/a04/diogo_elissandra_planejamento.log"
