@@ -45,22 +45,33 @@
 \maketitle
 
 \begin{resumo}
- [completar]
+Este relatório descreve a reprodução da análise quantitativa do experimento apresentado no artigo “Visual design guidelines for improving learning from dynamic and interactive digital text”. Apresentamos as etapas da análise dos dados no software estatístico e mostramos os resultados obtidos.
 \end{resumo}
 
 \section{Identificação do Artigo}
 
-[completar]
+Selecionamos o artigo utilizado anteriormente na atividade de planejamento e execução de um experimento controlado. O artigo comportava as necessidades deste trabalho, apresentando dados brutos de um experimento e seu resultado quantitativo e já estávamos familiarizados com o conteúdo.
 
-Artigo de \cite{JIN2013248}
+O artigo escolhido foi ``Visual design guidelines for improving learning from dynamic and interactive digital text'' \cite{JIN2013248}, que faz uma Análise de Variância Multivariada (MANOVA). Na MANOVA, é possível analisar o efeito de uma ou mais variáveis independentes sobre um conjunto de variáveis dependentes \cite{CHAGAS}
 
 \section{Reconhecimento dos Testes Estatísticos do Experimento}
 
-[completar]
+No artigo, \cite{JIN2013248} aplicou testes com estudantes. Os estudantes deveriam ler e tentar entender um texto digital por 20 minutos. Os estudantes completaram então um ``teste de estrutura'' (structure test), um teste de compreensão e um teste de usabilidade.
 
-\section{Reprodução dos Testes}
+Para a reprodução e análise exigida no prazo de entrega deste trabalho, decidimos recortar apenas o resultado dos dois primeiros testes. Além disso, os resultados escolhidos foram aqueles relacionados às diretrizes em que tivemos maior interesse e foco em nosso exercício anterior sobre experimentos controlados.
 
-Para simular os resultados qualitativos do experimento analisado foi empregada a linguagem \textit{Python}. 
+Na Figura \ref{fig:img1} estão dispostos os resultados obtidos por \cite{JIN2013248} em seu artigo. As duas primeiras linhas (Structure e Comprehension) foram escolhidas para nossa reprodução.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=35em]{images/table.png}
+  \caption{Resultados utilizados como base}
+  \label{fig:img1}
+\end{figure}
+
+\section{Reprodução utilizando o software estatístico}
+
+A simulação dos resultados qualitativos do experimento foi feita através da linguagem \textit{Python}, da forma descrita a seguir.
 
 Como o artigo não fornece todas respostas do questionário, gerou-se valores aleatórios com base na média, desvio padrão e número de respostas obtidas, tanto para os testes com \textit{Structure design guidelines}, \textit{Selective-attention design guidelines} e o grupo de controle. Com isso, calculou-se o \textit{valor-p} e o comparamos com os resultado apresentados pelo do autor do artigo. Utilizou-se a estratégia de executar o algorítmo 100 vezes e retirou-se a média de todos os \textit{valor-p} encontrados, para assim podermos termos uma análise melhor para com o resultado descrito no artigo.
 
@@ -99,6 +110,8 @@ import scipy.stats as stats
 \end{lstlisting}
 
 Nessa função, obtém-se cada um dos parâmetros, e se gera em um range de \textit{iterations} valores aleatórios que representem a média e o desvio padrão, considerando o grupo de controle nos cálculos.
+
+Para cada uma das iterações, gera-se a distribuição aleatória \texttt{agent\_dist} e \texttt{control\_dist} e obtém-se os seus valores \texttt{agent\_values} e \texttt{control\_values}. Com isso utiliza-se a função \texttt{mannwhitneyu} que abstraí o teste de Mann-Whitney, usado para testar a heterogeneidade de duas amostras ordinais. Os valores retornados são agregados em um vetor, e por fim, retorna-se a média destes valores com um arredondamento.
 
 Na sequência, o Código \ref{code:2} mostra as definições da variáveis de acordo com o trabalho de \cite{JIN2013248}.
 
@@ -203,7 +216,7 @@ Na sequência, o Código \ref{code:2} mostra as definições da variáveis de ac
 
 Após a execução do algorítmo, obteve-se resultados disponíveis no Código \ref{code:3}.
 
-\begin{lstlisting}[caption={Resultados Obtidos},captionpos=b,frame=single,label={code:3}]
+\begin{lstlisting}[caption={Saída do script},captionpos=b,frame=single,label={code:3}]
 {
  'structure': {
   'structure_design': 0.0001331037517740879,
@@ -216,7 +229,7 @@ Após a execução do algorítmo, obteve-se resultados disponíveis no Código \
 }
 \end{lstlisting}
 
-Pode-se notar que os resultados obtidos possuem equivalência com os apresentados em \cite{JIN2013248}.
+A Tabela \ref{tab:resultados} apresenta uma comparação dos resultados obtidos na nossa reprodução da análise e os originais do artigo. Pode-se notar que o resultado obtido para Struture Design (para o tipo Structure) possui equivalência com os apresentados em \cite{JIN2013248}. Os outros três valores possuem maior diferença com os originais devido às limitações do método aplicado de geração de valores aleatórios.
 
 \begin{table}[!htb]
   \centering
@@ -228,15 +241,17 @@ Pode-se notar que os resultados obtidos possuem equivalência com os apresentado
 		Structure Design & Comprehension & .000 & .071 \\ \hline
 		Selective Attention & Comprehension & .010 & 0.17 \\ \hline
 		\end{tabular}
-  \caption{Estratégias de representação}
-  \label{tab:estrategias_representacao}
+  \caption{Resultados obtidos na análise}
+  \label{tab:resultados}
 \end{table}
 
 \section{Conclusão}
 
-Apesar das limitações criadas pela ausência dos dados brutos, o resultado da reprodução conseguiu replicar de forma satisfatória os mesmos resultados obtidos pelo trabalho de \cite{JIN2013248}, mesmo quando houve uma certa diferença entre os valores obtidos.
+A identificação de um artigo que apresente todos os dados brutos necessários para reprodução exigida no trabalho foi uma dificuldade. Como forma de mitigar esta dificuldade, escolhemos o artigo estudado anteriormente para o planejamento e execução de um experimento controlado.
 
-O exercício permitiu criarmos de forma satisfatória os valores quantitativos de resultado de um experimento controlado.
+O artigo selecionado apresenta uma rica descrição de diferentes métodos de teste, avaliação e análise em um experimento, além do conteúdo relevante para IHC sobre diretrizes de design em materiais de ensino digital. O estudo feito para este trabalho da disciplina permitiu uma exploração enriquecedora do artigo.
+
+Apesar das limitações causadas pela ausência dos dados brutos, o resultado da reprodução conseguiu replicar de forma satisfatória um dos resultados obtidos pelo trabalho de \cite{JIN2013248}. Percebemos que apesar da reprodução não ter sido ideal, pudemos treinar e estudar de forma adequada o procedimento de análise dos dados.
 
 \bibliographystyle{sbc}
 \bibliography{sbc-template}

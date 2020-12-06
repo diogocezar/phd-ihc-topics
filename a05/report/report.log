@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  4 DEC 2020 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  6 DEC 2020 08:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,39 +307,51 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 47.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <13> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 74.
- (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 92.
- [1
-
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 99.
+<images/table.png, id=1, 1203.49625pt x 717.68124pt>
+File: images/table.png Graphic file (type png)
+<use images/table.png>
+Package pdftex.def Info: images/table.png  used on input line 67.
+(pdftex.def)             Requested size: 420.0pt x 250.45848pt.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 68.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 99.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 68.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 85.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ [2 </Users/diogocezar/phd/phd-ihc-topics/a05/report/images/table.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 103.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
- [2] [3] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.bbl) [4] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
+ [3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.bbl) [5] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 6235 strings out of 492649
- 90201 string characters out of 6129621
- 307850 words of memory out of 5000000
- 10013 multiletter control sequences out of 15000+600000
+ 6246 strings out of 492649
+ 90338 string characters out of 6129621
+ 292872 words of memory out of 5000000
+ 10022 multiletter control sequences out of 15000+600000
  24824 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,40p,887b,1593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,40p,887b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf (4 pages, 102646 bytes).
+Output written on /Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf (5 pages, 260334 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 60 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

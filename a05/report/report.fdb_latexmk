@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex report"] 1607116827 "report.aux" "report.bbl" "report" 1607116829
+["bibtex report"] 1607254869 "report.aux" "report.bbl" "report" 1607254871
   "./sbc.bst" 1606859202 21864 a668496cca21cfdd211f7fb5f0d57565 ""
-  "report.aux" 1607116827 1449 43d77c8274c383dd73d2c3e593422b12 ""
-  "sbc-template.bib" 1606859210 1821 d42a16fda65c93ca9cdbd715fe4efce9 ""
+  "report.aux" 1607254870 1693 0a8f2006df4e21ed7db36c4f360513bb ""
+  "sbc-template.bib" 1607253681 2019 1c7d097618cbb4cbcd7d5b3c6554bbfa ""
   (generated)
   "report.bbl"
   "report.blg"
-["pdflatex"] 1607116827 "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.tex" "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf" "report" 1607116829
-  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux" 1607116827 1449 43d77c8274c383dd73d2c3e593422b12 ""
-  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.tex" 1607116827 8070 7a35f51324c23e9814fc37656592e28b ""
+["pdflatex"] 1607254869 "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.tex" "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf" "report" 1607254871
+  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux" 1607254870 1693 0a8f2006df4e21ed7db36c4f360513bb ""
+  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.tex" 1607254867 11261 ba33a9e5aa5d75b60e1486fb3f7c21c4 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1480098688 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -100,13 +100,14 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1544732100 4220281 d4474a244bf1b153d2b8959e8c005881 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "report.aux" 1607116827 1449 43d77c8274c383dd73d2c3e593422b12 ""
-  "report.bbl" 1607116827 258 277dfe095e68b36633bd6e4d9715b0d3 "bibtex report"
-  "report.tex" 1607116827 8070 7a35f51324c23e9814fc37656592e28b ""
+  "images/table.png" 1607253918 282392 3f5e7954ffb07359e329fbf9c2782b5c ""
+  "report.aux" 1607254870 1693 0a8f2006df4e21ed7db36c4f360513bb ""
+  "report.bbl" 1607254869 361 528538992d13c840d0cb14b59bf928fb "bibtex report"
+  "report.tex" 1607254867 11261 ba33a9e5aa5d75b60e1486fb3f7c21c4 ""
   "sbc-template.sty" 1606859191 6074 ecc54df5124d8db4ac67c42cc728f3a5 ""
   (generated)
+  "report.pdf"
   "report.aux"
-  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.log"
   "report.log"
   "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf"
-  "report.pdf"
+  "/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.log"
