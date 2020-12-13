@@ -16,7 +16,7 @@
  stepnumber=1,
  firstnumber=1,
  numberstyle=\tiny,
- extendedchars=true,
+ extendedchars=false,
  breaklines=true,
  frame=single,
  showstringspaces=false,
@@ -45,7 +45,7 @@
 \maketitle
 
 \begin{resumo}
-Este relatório descreve a reprodução da análise quantitativa do experimento apresentado no artigo “Visual design guidelines for improving learning from dynamic and interactive digital text”. Apresentamos as etapas da análise dos dados no software estatístico e mostramos os resultados obtidos.
+Este relatório descreve a reprodução da análise quantitativa do experimento apresentado no artigo ``Visual design guidelines for improving learning from dynamic and interactive digital text''. Apresentamos as etapas da análise dos dados no software estatístico e mostramos os resultados obtidos.
 \end{resumo}
 
 \section{Identificação do Artigo}
@@ -56,7 +56,7 @@ O artigo escolhido foi ``Visual design guidelines for improving learning from dy
 
 \section{Reconhecimento dos Testes Estatísticos do Experimento}
 
-No artigo, \cite{JIN2013248} aplicou testes com estudantes. Os estudantes deveriam ler e tentar entender um texto digital por 20 minutos. Os estudantes completaram então um ``teste de estrutura'' (structure test), um teste de compreensão e um teste de usabilidade.
+No artigo, Jin (2013) aplicou testes com estudantes. Os estudantes deveriam ler e tentar entender um texto digital por 20 minutos. Os estudantes completaram então um ``teste de estrutura'' (structure test), um teste de compreensão e um teste de usabilidade.
 
 Para a reprodução e análise exigida no prazo de entrega deste trabalho, decidimos recortar apenas o resultado dos dois primeiros testes. Além disso, os resultados escolhidos foram aqueles relacionados às diretrizes em que tivemos maior interesse e foco em nosso exercício anterior sobre experimentos controlados.
 
@@ -71,13 +71,11 @@ Na Figura \ref{fig:img1} estão dispostos os resultados obtidos por \cite{JIN201
 
 \section{Reprodução utilizando o software estatístico}
 
-A simulação dos resultados qualitativos do experimento foi feita através da linguagem \textit{Python}, da forma descrita a seguir.
+Como o artigo não fornece todas respostas do questionário, gerou-se valores aleatórios com base na média, desvio padrão e número de respostas obtidas, tanto para os testes com \textit{Structure design guidelines}, \textit{Selective-attention design guidelines} e o grupo de controle. Com isso, calculou-se o \textit{valor-p} e o comparamos com os resultado apresentados pelo do autor do artigo. Utilizou-se a estratégia de executar o algoritmo 100 vezes e retirou-se a média de todos os \textit{valor-p} encontrados, para assim podermos termos uma análise melhor para com o resultado descrito no artigo.
 
-Como o artigo não fornece todas respostas do questionário, gerou-se valores aleatórios com base na média, desvio padrão e número de respostas obtidas, tanto para os testes com \textit{Structure design guidelines}, \textit{Selective-attention design guidelines} e o grupo de controle. Com isso, calculou-se o \textit{valor-p} e o comparamos com os resultado apresentados pelo do autor do artigo. Utilizou-se a estratégia de executar o algorítmo 100 vezes e retirou-se a média de todos os \textit{valor-p} encontrados, para assim podermos termos uma análise melhor para com o resultado descrito no artigo.
+\section{Algoritmo Criado}
 
-\section{Algorítmo Criado}
-
-Para a elaboração do algorítmo utiliou-ze a linguagem \textit{Python}. Em conjunto com as bibliotecas \textit{numpy} e \textit{scipy}
+Para a elaboração do algoritmo utiliou-ze a linguagem \textit{Python}. Em conjunto com as bibliotecas \textit{numpy} e \textit{scipy}
 
 O Código \ref{code:1} mostra a definição de uma função genéria que obtém informações de um grupo qualquer e um grupo controle. São informadas as variáveis:
 
@@ -93,7 +91,7 @@ O Código \ref{code:1} mostra a definição de uma função genéria que obtém 
 	\item \texttt{iterations}: quantas iterações serão realizadas para gerar a média;
 \end{itemize}
 
-\begin{lstlisting}[caption={Definição da Função Genérica},captionpos=b,frame=single,label={code:1}]
+\begin{lstlisting}[caption={Definição da Função Genérica},language=python,captionpos=b,frame=single,label={code:1}]
 import numpy as np
 import scipy.stats as stats
  
@@ -115,7 +113,7 @@ Para cada uma das iterações, gera-se a distribuição aleatória \texttt{agent
 
 Na sequência, o Código \ref{code:2} mostra as definições da variáveis de acordo com o trabalho de \cite{JIN2013248}.
 
-\begin{lstlisting}[caption={Definições das Variáveis},captionpos=b,frame=single,label={code:2}]
+\begin{lstlisting}[caption={Definições das Variáveis},captionpos=b,language=python,frame=single,label={code:2}]
  if __name__ == "__main__":
   structure = {
    "control": {
@@ -214,9 +212,9 @@ Na sequência, o Código \ref{code:2} mostra as definições da variáveis de ac
 
 \section{Resultados}
 
-Após a execução do algorítmo, obteve-se resultados disponíveis no Código \ref{code:3}.
+Após a execução do algoritmo, obteve-se resultados disponíveis no Código \ref{code:3}.
 
-\begin{lstlisting}[caption={Saída do script},captionpos=b,frame=single,label={code:3}]
+\begin{lstlisting}[caption={Saída do script},captionpos=b,frame=single,language=python,label={code:3}]
 {
  'structure': {
   'structure_design': 0.0001331037517740879,

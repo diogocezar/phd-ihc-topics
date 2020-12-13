@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  6 DEC 2020 08:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.12.13)  6 DEC 2020 15:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,31 +324,33 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 85.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 83.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 95.
  [2 </Users/diogocezar/phd/phd-ihc-topics/a05/report/images/table.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 103.
+(Font)              <5> on input line 101.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
- [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.bbl) [5] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux) ) 
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 118.
+ [3] [4] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.bbl) [5] (/Users/diogocezar/phd/phd-ihc-topics/a05/report/report.aux) ) 
 Here is how much of TeX's memory you used:
- 6246 strings out of 492649
- 90338 string characters out of 6129621
- 292872 words of memory out of 5000000
- 10022 multiletter control sequences out of 15000+600000
- 24824 words of font info for 51 fonts, out of 8000000 for 9000
+ 6184 strings out of 492649
+ 90627 string characters out of 6129621
+ 343600 words of memory out of 5000000
+ 9955 multiletter control sequences out of 15000+600000
+ 26450 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,8n,40p,887b,1591s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,8n,42p,887b,1019s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf (5 pages, 260334 bytes).
+Output written on /Users/diogocezar/phd/phd-ihc-topics/a05/report/report.pdf (5 pages, 260188 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
